@@ -1,0 +1,119 @@
+Parent = MaterialInstanceConstant'/Game/Hibiki/Materials/MasterMaterial/Environment/MP_BasicEmissive/MP_EnvBasic_EmissiveColorTex_SM.MP_EnvBasic_EmissiveColorTex_SM'
+ScalarParameterValues[5] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveIntensity }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=UVScrollTexCoord_U }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=UVScrollTexCoord_V }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BaseColorIntensity }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColorMap }
+        ParameterValue = Texture2D'/Game/Hibiki/Environment/Architecture/SecDept/SM_CommuterLift/Decal/T_PlatformWallTextA_WB_01.T_PlatformWallTextA_WB_01'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorMap }
+        ParameterValue = Texture2D'/Game/Hibiki/Environment/Architecture/SecDept/SM_CommuterLift/Decal/T_PlatformWallTextA_WB_01.T_PlatformWallTextA_WB_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EmissiveColorTint }
+        ParameterValue = { R=0.094658, G=0.121048, B=0.385417, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BakeEmissiveColor }
+        ParameterValue = { R=0.352341, G=0.854167, B=0.544096, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseColorTint }
+        ParameterValue = { R=0.314422, G=0.291667, B=1, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVScrollTexCoord }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[5] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_White_MM.T_White_MM'
+    CachedReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[3] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_WhiteAlpha_MM.T_WhiteAlpha_MM'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WhiteAlpha_MM
+    }
+}

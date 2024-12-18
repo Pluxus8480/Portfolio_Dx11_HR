@@ -1,0 +1,1087 @@
+[
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.15"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.16"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02'",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.4"
+    },
+    "Properties": {
+      "CollisionProfileNameMap": [
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01'",
+          "Value": "BlockAllDynamic"
+        },
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.19"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01'",
+          "Value": "NoCollision"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.20"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01'",
+          "Value": "NoCollision"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.24"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.6"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.25"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01",
+    "Outer": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.26"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.27"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C:SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.28"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St11_090_BattleThird_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St11_090_BattleThird_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.22"
+      },
+      "LevelBuildDataId": "766D76AF-4EB38D5B-2992D69E-28DD13A9",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St11_090_BattleThird_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.35"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St11_090_BattleThird_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.35"
+      },
+      null,
+      {
+        "ObjectName": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.33"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.32"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.30"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.29"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.31"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Maps/Title/Title_All",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St11_090_BattleThird_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.22"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "6FDCD5A9-45E67369-65BE439D-FA76F614",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -19000.0,
+        "Z": 9190.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.7"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -19000.0,
+        "Z": 9190.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -20000.0,
+        "Z": 10000.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -22700.0,
+        "Z": 11300.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999985,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -22700.0,
+        "Z": 11300.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.10"
+      },
+      "SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.15"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.24"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.5"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.24"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.24"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.15"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_After_IZ_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C'Default__SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP.1"
+    },
+    "Properties": {
+      "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.17"
+      },
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.11"
+      },
+      "SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.16"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.25"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.6"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.25"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.25"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.16"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_02'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.17"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2BattleRoomSet_Before_IZ_01_BP_2.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C'Default__SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.12"
+      },
+      "SM_SpectraConstr_RobotPunch2FallingParts_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.18"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.26"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.7"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.26"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.26"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.18"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2FallingParts_IZ_01_BP_2.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C'Default__SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.13"
+      },
+      "SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.19"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.27"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.8"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.27"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.27"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.19"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_After_IZ_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C'Default__SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.14"
+      },
+      "SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.20"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.28"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.9"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.28"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.28"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.20"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_090_BattleThird_Env:PersistentLevel.SM_SpectraConstr_RobotPunch2WallSet_Before_IZ_01_BP_2.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St11_090_BattleThird_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St11_090_BattleThird_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.21"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St11_090_BattleThird_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_090_BattleThird/ENV/St11_090_BattleThird_Env.23"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

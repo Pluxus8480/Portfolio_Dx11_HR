@@ -1,0 +1,576 @@
+[
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__St11_PlatformConsoleA_NoMonitor_WB_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.2"
+    },
+    "Properties": {
+      "RoleTags": [
+        "Stage.Stage11.030.PlatformConsoleA"
+      ]
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "St11_PlatformConsoleA_WB_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__St11_PlatformConsoleA_WB_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.2"
+    },
+    "Properties": {
+      "RoleTags": [
+        "Stage.Stage11.030.PlatformConsoleA02"
+      ]
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__St11_PlatformConsoleA_NoMonitor_WB_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "St11_PlatformConsoleA_WB_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__St11_PlatformConsoleA_WB_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'St11_PlatformConsoleA_NoMonitor_WB_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.4"
+    },
+    "Properties": {
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.SM_PlatformConsoleA_NoMonitor_WB_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "St11_PlatformConsoleA_WB_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'St11_PlatformConsoleA_WB_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.4"
+    },
+    "Properties": {
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.SM_PlatformConsoleA_WB_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ElevatorBaseADoorL_IZ_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorL_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.8"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorL_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.8"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ElevatorBaseADoorR_IZ_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorR_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.9"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorR_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.9"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ElevatorBaseADoorL_IZ_01",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ElevatorBaseADoorL_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Elevator_IZ/SM_SpectraConstr_ElevatorBaseADoorL_IZ_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null
+      ],
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -16500.0,
+        "Z": 200.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00005,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ElevatorBaseADoorR_IZ_01",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ElevatorBaseADoorR_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Elevator_IZ/SM_SpectraConstr_ElevatorBaseADoorR_IZ_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null
+      ],
+      "CastShadow": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -16500.0,
+        "Z": 200.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.9994,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PlatformConsoleA_NoMonitor_WB_01",
+    "Outer": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'St11_PlatformConsoleA_NoMonitor_WB_01_BP_C:SM_PlatformConsoleA_NoMonitor_WB_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.5"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "bCastStaticShadow": false,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.15"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PlatformConsoleA_WB_01",
+    "Outer": "St11_PlatformConsoleA_WB_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'St11_PlatformConsoleA_WB_01_BP_C:SM_PlatformConsoleA_WB_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.5"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Hologram_SpectraConstrSignsDisplayF'",
+          "ObjectPath": "/Game/Hibiki/Environment/Advertising/Signs_Spectra/MI_Hologram_SpectraConstrSignsDisplayF.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MI_bg0421ConsoleMonitorA_WB_01'",
+          "ObjectPath": "/Game/Hibiki/Character/bg/bg0421/Meshes/MI_MI_bg0421ConsoleMonitorA_WB_01.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "bCastStaticShadow": false,
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.16"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St11_030_BattleFirst_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St11_030_BattleFirst_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.13"
+      },
+      "LevelBuildDataId": "E0736C69-4FA86523-90BAD59D-25D1CA38",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St11_030_BattleFirst_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.20"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St11_030_BattleFirst_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.20"
+      },
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorL_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.6"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_030_BattleFirst_Env:PersistentLevel.SM_SpectraConstr_ElevatorBaseADoorR_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.7"
+      },
+      {
+        "ObjectName": "St11_PlatformConsoleA_WB_01_BP_C'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.18"
+      },
+      {
+        "ObjectName": "St11_PlatformConsoleA_NoMonitor_WB_01_BP_C'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.17"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Maps/Title/Title_All",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St11_030_BattleFirst_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.13"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "7970F337-4EEAC02F-D67DA989-75909627",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'St11_PlatformConsoleA_NoMonitor_WB_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -370.0,
+        "Y": -16000.0,
+        "Z": 200.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "St11_PlatformConsoleA_WB_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'St11_PlatformConsoleA_WB_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -370.0,
+        "Y": -16000.0,
+        "Z": 200.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "St11_PlatformConsoleA_NoMonitor_WB_01_BP_C",
+    "Name": "St11_PlatformConsoleA_NoMonitor_WB_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.St11_PlatformConsoleA_NoMonitor_WB_01_BP_C'",
+    "Template": {
+      "ObjectName": "St11_PlatformConsoleA_NoMonitor_WB_01_BP_C'Default__St11_PlatformConsoleA_NoMonitor_WB_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_NoMonitor_WB_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.4"
+      },
+      "SM_PlatformConsoleA_NoMonitor_WB_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.SM_PlatformConsoleA_NoMonitor_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.10"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.15"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.2"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.15"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.15"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.SM_PlatformConsoleA_NoMonitor_WB_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.10"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_NoMonitor_WB_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "St11_PlatformConsoleA_WB_01_BP_C",
+    "Name": "St11_PlatformConsoleA_WB_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.St11_PlatformConsoleA_WB_01_BP_C'",
+    "Template": {
+      "ObjectName": "St11_PlatformConsoleA_WB_01_BP_C'Default__St11_PlatformConsoleA_WB_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/SecDept/SM_CommuterLift/SM_PlatformConsole_WB/St11/St11_PlatformConsoleA_WB_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.5"
+      },
+      "SM_PlatformConsoleA_WB_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.SM_PlatformConsoleA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.11"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.16"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.3"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.16"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.16"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.SM_PlatformConsoleA_WB_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.11"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_030_BattleFirst_Env:PersistentLevel.St11_PlatformConsoleA_WB_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St11_030_BattleFirst_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St11_030_BattleFirst_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.12"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St11_030_BattleFirst_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_030_BattleFirst/ENV/St11_030_BattleFirst_Env.14"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

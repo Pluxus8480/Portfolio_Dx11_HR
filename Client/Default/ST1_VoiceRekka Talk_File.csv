@@ -1,0 +1,5 @@
+CHARACTER,TEXT,NAME,FACE
+8,여기 생산구역의 빅보스 레카다. 불량품이 있다는데 뭔 소리지?,레카,1,ST1_Rekka,ST1VoiceRekka1_1
+8,누구든 그 꼬맹이 보면 이 레카의 바람대로 박살내버리도록!,레카,1,ST1_Rekka,ST1VoiceRekka1_2
+8,이 레카가 있는 한 불량품은 생산구역을 벗어날 수 없다!,레카,1,ST1_Rekka,ST1VoiceRekka1_3
+0,음... 절대 마주치고 싶지 않은 사람이야.,차이,5,ST1_Rekka,ST1VoiceRekka1_4

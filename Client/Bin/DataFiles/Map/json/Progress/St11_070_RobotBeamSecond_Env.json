@@ -1,0 +1,2048 @@
+[
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_BattleAreaA_CraneA_TJ_01_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_BattleAreaA_CraneA_TJ_01_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.35"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_BattleAreaA_CraneA_TJ_01_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.35"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_ConstructionScaffoldingA_KW_79",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_79.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.36"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_79.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.36"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_ConstructionScaffoldingA_KW_80",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_80.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.37"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_80.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.37"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_ConstructionScaffoldingA_KW_81",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_81.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.38"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_81.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.38"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_ConstructionScaffoldingA_KW_82",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_82.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.39"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_82.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.39"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_62",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_62.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.40"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_62.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.40"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_63",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_63.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.41"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_63.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.41"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_64",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_64.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.42"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_64.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.42"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_65",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_65.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.43"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_65.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.43"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_66",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_66.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.44"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_66.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.44"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_67",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_67.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.45"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_67.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.45"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_68",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_68.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.46"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_68.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.46"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_69",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_69.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.47"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_69.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.47"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_70",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_70.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.48"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_70.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.48"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_71",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_71.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.49"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_71.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.49"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_72",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_72.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.50"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_72.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.50"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_73",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_73.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.51"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_73.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.51"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_74",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_74.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.52"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_74.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.52"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_75",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_75.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.53"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_75.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.53"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_76",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_76.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.54"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_76.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.54"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_77",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_77.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.55"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_77.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.55"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_IronFrameC_AG_86",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_86.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.56"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_86.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.56"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_NetA_AG_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.57"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.57"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_NetA_AG_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.58"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.58"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_Scaffold_SetAa_IZ_78",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_Scaffold_SetAa_IZ_78.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.59"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_Scaffold_SetAa_IZ_78.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.59"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_83",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_83.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.60"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_83.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.60"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_84",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_84.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.61"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_84.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.61"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.62"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.62"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_87",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_87.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.63"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_87.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.63"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_88",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_88.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.64"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_88.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.64"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.65"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.65"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_SheetA_AG_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.66"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.66"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_SheetA_AG_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.67"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.67"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_StructureF_AG_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureF_AG_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.68"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureF_AG_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.68"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_StructureH_AG_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureH_AG_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.69"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureH_AG_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.69"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_BattleAreaA_CraneA_TJ_01_1",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BattleAreaA_CraneA_TJ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_ProdDeptArea/BattleAreaA/SM_BattleAreaA_TJ/SM_BattleAreaA_CraneA_TJ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9989.603,
+        "Y": -20311.56,
+        "Z": 11416.159
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -450.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionScaffoldingA_KW_79",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionScaffoldingA_KW_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Street/SM_ConstructionScaffolding_KW/SM_ConstructionScaffoldingA_KW_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 9070.0,
+        "Y": -21430.0,
+        "Z": 6582.7124
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.578612,
+        "Y": 1.354676,
+        "Z": 1.654189
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionScaffoldingA_KW_80",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionScaffoldingA_KW_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Street/SM_ConstructionScaffolding_KW/SM_ConstructionScaffoldingA_KW_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 9070.0,
+        "Y": -21840.0,
+        "Z": 6582.7124
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.578612,
+        "Y": 1.354676,
+        "Z": 1.654189
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionScaffoldingA_KW_81",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionScaffoldingA_KW_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Street/SM_ConstructionScaffolding_KW/SM_ConstructionScaffoldingA_KW_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 10070.0,
+        "Y": -21430.0,
+        "Z": 6582.7124
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.578612,
+        "Y": 1.354676,
+        "Z": 1.654189
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_ConstructionScaffoldingA_KW_82",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ConstructionScaffoldingA_KW_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Street/SM_ConstructionScaffolding_KW/SM_ConstructionScaffoldingA_KW_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 10070.0,
+        "Y": -21840.0,
+        "Z": 6582.7124
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.578612,
+        "Y": 1.354676,
+        "Z": 1.654189
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_62",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 6934.401,
+        "Y": -21486.45,
+        "Z": 5950.048
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 149.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.19,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_63",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 7007.154,
+        "Y": -21360.45,
+        "Z": 5901.253
+      },
+      "RelativeRotation": {
+        "Pitch": -4.1E-05,
+        "Yaw": 150.00047,
+        "Roll": -89.99928
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.462387,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_64",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 8480.664,
+        "Y": -21368.256,
+        "Z": 5901.251
+      },
+      "RelativeRotation": {
+        "Pitch": -1.4E-05,
+        "Yaw": 149.99995,
+        "Roll": -89.99988
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.462387,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_65",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 8115.666,
+        "Y": -22000.45,
+        "Z": 5901.251
+      },
+      "RelativeRotation": {
+        "Pitch": -1.4E-05,
+        "Yaw": 149.99998,
+        "Roll": -89.99987
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.462387,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_66",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7380.8145,
+        "Y": -20733.256,
+        "Z": 5171.249
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999943,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.25572,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_67",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 7015.814,
+        "Y": -21365.451,
+        "Z": 5171.249
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999943,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.25572,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_68",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 7380.8145,
+        "Y": -20733.256,
+        "Z": 5951.249
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999943,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.25572,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_69",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 8462.917,
+        "Y": -21398.994,
+        "Z": 4020.0479
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.14,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_70",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7380.8145,
+        "Y": -20733.256,
+        "Z": 4021.249
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999943,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.25572,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_71",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7015.814,
+        "Y": -21365.451,
+        "Z": 4021.249
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999943,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.25572,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_72",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7363.061,
+        "Y": -20763.996,
+        "Z": 4020.0479
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.14,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_73",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7354.401,
+        "Y": -20758.996,
+        "Z": 5170.048
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.130251,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_74",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 8112.917,
+        "Y": -22005.209,
+        "Z": 4020.0479
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.14,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_75",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 7013.0615,
+        "Y": -21370.21,
+        "Z": 4020.0479
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.14,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_76",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 8042.91,
+        "Y": -22126.45,
+        "Z": 5950.048
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 149.99998,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.19,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_77",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": true,
+        "WalkableSlopeOverride": {
+          "WalkableSlopeBehavior": "WalkableSlope_Unwalkable"
+        }
+      },
+      "RelativeLocation": {
+        "X": 8462.917,
+        "Y": -21398.994,
+        "Z": 5170.048
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 330.0001,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.340746,
+        "Y": 0.14,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_IronFrameC_AG_86",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_IronFrameC_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/SM_SpectraConstr_IronFrameC_AG_01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_SpectraConstr_IronFrameA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_IronFrame_AG/MI_SpectraConstr_IronFrameA_AG_01.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 7372.1543,
+        "Y": -20728.256,
+        "Z": 5901.2495
+      },
+      "RelativeRotation": {
+        "Pitch": -1.4E-05,
+        "Yaw": 149.99995,
+        "Roll": -89.99988
+      },
+      "RelativeScale3D": {
+        "X": 0.40939,
+        "Y": 0.462387,
+        "Z": 0.40939
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_NetA_AG_12",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_NetA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Net_AG/SM_SpectraConstr_NetA_AG_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7399.4814,
+        "Y": -21641.586,
+        "Z": 7101.606
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.99993,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_NetA_AG_13",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_NetA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Net_AG/SM_SpectraConstr_NetA_AG_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 6533.456,
+        "Y": -21141.586,
+        "Z": 7101.606
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.99993,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_Scaffold_SetAa_IZ_78",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_Scaffold_SetAa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_Scaffold_SetAa_IZ_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8571.583,
+        "Y": -21838.229,
+        "Z": 3592.817
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_83",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 8571.583,
+        "Y": -21433.229,
+        "Z": 6092.817
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_84",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": 8571.583,
+        "Y": -21838.229,
+        "Z": 6092.817
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 6944.656,
+        "Y": -21388.68,
+        "Z": 6030.801
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 153.43495,
+        "Roll": -93.43448
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.909071,
+        "Z": 0.854271
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_87",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01.2"
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.62"
+      },
+      "RelativeLocation": {
+        "X": 6.1035156E-05,
+        "Y": -499.97095,
+        "Z": -0.040510487
+      },
+      "RelativeRotation": {
+        "Pitch": -6.830189E-06,
+        "Yaw": 1.1952776E-05,
+        "Roll": 0.0037958778
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9999978,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_88",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_01.2"
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.62"
+      },
+      "RelativeLocation": {
+        "X": 0.00012207031,
+        "Y": -1002.83203,
+        "Z": -0.03983174
+      },
+      "RelativeRotation": {
+        "Pitch": -6.830189E-06,
+        "Yaw": 1.1952776E-05,
+        "Roll": 0.0037958778
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.9999978,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_11",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11380.005,
+        "Y": -20394.998,
+        "Z": 10304.998
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.2E-05,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.25,
+        "Y": 1.151726,
+        "Z": 1.214062
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_SheetA_AG_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_SheetA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Sheet_AG/SM_SpectraConstr_SheetA_AG_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7399.4814,
+        "Y": -21641.586,
+        "Z": 8101.606
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999916,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_SheetA_AG_3",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_SheetA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Sheet_AG/SM_SpectraConstr_SheetA_AG_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 6533.456,
+        "Y": -21141.586,
+        "Z": 8101.606
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.999916,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_StructureF_AG_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_StructureF_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Structure_AG/SM_SpectraConstr_StructureF_AG_01.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_MC_SpectraConstr_ConcreteF_01_R01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Structure_AG/MI_MC_SpectraConstr_ConcreteF_01_R01.0"
+        }
+      ],
+      "VisibilityId": 4168,
+      "RelativeLocation": {
+        "X": 12400.0,
+        "Y": -32600.0,
+        "Z": 10000.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_StructureH_AG_01_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_StructureH_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Structure_AG/SM_SpectraConstr_StructureH_AG_01.2"
+      },
+      "VisibilityId": 4189,
+      "RelativeLocation": {
+        "X": 10880.0,
+        "Y": -21060.0,
+        "Z": 10000.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St11_070_RobotBeamSecond_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St11_070_RobotBeamSecond_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.71"
+      },
+      "LevelBuildDataId": "D0C050F6-41EED26A-4582D18E-5958D7B3",
+      "MapBuildData": {
+        "ObjectName": "MapBuildDataRegistry'St11_070_RobotBeamSecond_Env_BuiltData'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env_BuiltData.0"
+      },
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St11_070_RobotBeamSecond_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.74"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St11_070_RobotBeamSecond_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.74"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureF_AG_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.33"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_StructureH_AG_01_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.34"
+      },
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ba_IZ_11'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.30"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_BattleAreaA_CraneA_TJ_01_1'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.0"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.22"
+      },
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_NetA_AG_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.23"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.31"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_SheetA_AG_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.32"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_62'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.5"
+      },
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_48'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.27"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_86'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.21"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_63'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.6"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_64'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.7"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_65'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.8"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_66'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.9"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_Scaffold_SetAa_IZ_78'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.24"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_67'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.10"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_68'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.11"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_69'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.12"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_70'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.13"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_71'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.14"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_72'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.15"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_73'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.16"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_74'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.17"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_75'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.18"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_76'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.19"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_IronFrameC_AG_77'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.20"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_79'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.1"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_80'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.2"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_81'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.3"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_ConstructionScaffoldingA_KW_82'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.4"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_83'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.25"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldPoleBuild_Cf_IZ_84'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.26"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_87'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.28"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_070_RobotBeamSecond_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Aa_IZ_88'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.29"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Maps/Title/Title_All",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St11_070_RobotBeamSecond_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.71"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "AF02E20E-4339F56C-23397A82-999E67A7",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St11_070_RobotBeamSecond_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St11_070_RobotBeamSecond_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.70"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St11_070_RobotBeamSecond_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_070_RobotBeamSecond/ENV/St11_070_RobotBeamSecond_Env.72"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

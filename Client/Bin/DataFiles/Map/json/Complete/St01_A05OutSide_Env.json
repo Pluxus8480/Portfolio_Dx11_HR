@@ -1,0 +1,336 @@
+[
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St01_A05OutSide_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St01_A05OutSide_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.1"
+      },
+      "LevelBuildDataId": "B73B06F8-49FC896B-3845B0B8-46338217",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St01_A05OutSide_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.14"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St01_A05OutSide_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.14"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_01_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.4"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.5"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A05OutSide_Env:PersistentLevel.FactoryOutSide_122'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.3"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_5'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.7"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Levels/Title_Debug",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St01_A05OutSide_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.1"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "306CD04A-4B4A113C-BD0AC89B-EEB52810",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "FactoryOutSide_122",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.FactoryOutSide_122.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.8"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.FactoryOutSide_122.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FactoryOutSideParts_WB_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.9"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FactoryOutSideParts_WB_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.10"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FactoryOutSideParts_WB_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.11"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FactoryOutSideParts_WB_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.12"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A05OutSide_Env:PersistentLevel.SM_FactoryOutSideParts_WB_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "FactoryOutSide_122",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FactoryA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/BLDGNear/SM_FactoryA_WB/SM_FactoryA_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": 959.5044,
+        "Y": -78498.19,
+        "Z": 4394.008
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FactoryOutSideParts_WB_01_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FactoryOutSideParts_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_ProdDeptOutSide_WB/SM_FactoryOutSideParts_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": -71.495605,
+        "Y": -86687.19,
+        "Z": 6894.008
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FactoryOutSideParts_WB_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FactoryOutSideParts_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_ProdDeptOutSide_WB/SM_FactoryOutSideParts_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": -2877.4956,
+        "Y": -86687.19,
+        "Z": 6894.008
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FactoryOutSideParts_WB_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FactoryOutSideParts_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_ProdDeptOutSide_WB/SM_FactoryOutSideParts_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": -10408.799,
+        "Y": -93864.7,
+        "Z": 6856.796
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FactoryOutSideParts_WB_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FactoryOutSideParts_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_ProdDeptOutSide_WB/SM_FactoryOutSideParts_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": -10408.799,
+        "Y": -88549.56,
+        "Z": 6908.796
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St01_A05OutSide_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St01_A05OutSide_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.0"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St01_A05OutSide_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area05OutSide/ENV/St01_A05OutSide_Env.2"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

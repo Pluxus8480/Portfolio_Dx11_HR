@@ -1,0 +1,91 @@
+Parent = MaterialInstanceConstant'/Game/Hibiki/Materials/MasterMaterial/Environment/MP_BasicMask/MP_Mask_EnvBasic_SM.MP_Mask_EnvBasic_SM'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SkipKeyLight }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorMap }
+        ParameterValue = Texture2D'/Game/Hibiki/Environment/Architecture/SecDept/SM_CommuterLift/Decal/T_PlatformNumberDecalE_WB_01.T_PlatformNumberDecalE_WB_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColorTint }
+        ParameterValue = { R=0.703125, G=0.703125, B=0.703125, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+CachedReferencedTextures[9] =
+{
+    CachedReferencedTextures[0] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_GrayScale_MM.T_GrayScale_MM'
+    CachedReferencedTextures[1] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_WhiteAlpha_MM.T_WhiteAlpha_MM'
+    CachedReferencedTextures[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    CachedReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    CachedReferencedTextures[5] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_White_MM.T_White_MM'
+    CachedReferencedTextures[6] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_LinearGrayScale_MM.T_LinearGrayScale_MM'
+    CachedReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    CachedReferencedTextures[8] = Texture2D'/Game/Hibiki/Textures/Generic/Generic/T_FlatNormal_MM.T_FlatNormal_MM'
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 3
+        TextureName = T_GrayScale_MM
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_GrayScale_MM
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WhiteAlpha_MM
+    }
+}

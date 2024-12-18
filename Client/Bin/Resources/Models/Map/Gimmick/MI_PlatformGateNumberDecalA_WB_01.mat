@@ -1,0 +1,9 @@
+Diffuse=T_PlatformGateNumberDecalA_WB_01
+Normal=T_FlatNormal_MM
+Other[0]=T_White_MM
+Other[1]=T_GrayScale_MM
+Other[2]=DefaultDiffuse
+Other[3]=Good64x64TilingNoiseHighFreq
+Other[4]=DefaultTexture
+Other[5]=T_LinearGrayScale_MM
+Other[6]=T_WhiteAlpha_MM

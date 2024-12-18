@@ -1,0 +1,4 @@
+CHARACTER,TEXT,NAME,FACE
+9,L.I.F.T.를 멈춰!,코르시카,1,ST_Lift,LiftBrake1_1
+0,브레이크다!,차이,4,ST_Lift,LiftBrake1_2
+6,내가 한번 부숴볼게!,마카롱,2,ST_Lift,LiftBrake1_3

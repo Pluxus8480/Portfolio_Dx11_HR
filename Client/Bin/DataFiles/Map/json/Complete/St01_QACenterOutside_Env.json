@@ -1,0 +1,4288 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "St01_QACenterOutside_Env_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "St01_QACenterOutside_Env_C'Default__St01_QACenterOutside_Env_C'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.1"
+    }
+  },
+  {
+    "Type": "St01_QACenterOutside_Env_C",
+    "Name": "Default__St01_QACenterOutside_Env_C",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.St01_QACenterOutside_Env_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St01_QACenterOutside_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St01_QACenterOutside_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.3"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "St01_QACenterOutside_Env_C'St01_QACenterOutside_Env:PersistentLevel.St01_QACenterOutside_Env_C_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.5"
+      },
+      "LevelBuildDataId": "52C64B96-4232BD18-358BB1AD-14C42D3D",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St01_QACenterOutside_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.143"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St01_QACenterOutside_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.143"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterBottom_IZ_01_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterTop_IZ_01_6'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.73"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterAntenna_IZ_01_9'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_01_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterMiddle_IZ_01_18'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_27'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_34'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.7"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_11'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_5'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes80m_IZ_46'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_01_52'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_01_55'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_5'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_6'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_7'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.72"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_7'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_9'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.70"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_11'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_14'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_16'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_17'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_18'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_19'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.71"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_20'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.45"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_21'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_15'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_16'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_14'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.39"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_15'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_1'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_17'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_18'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_19'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_20'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_21'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_22'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_24'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_01_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_5'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_6'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_7'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_9'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_11'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.25"
+      },
+      {
+        "ObjectName": "St01_QACenterOutside_Env_C'St01_QACenterOutside_Env:PersistentLevel.St01_QACenterOutside_Env_C_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Levels/Title_Debug",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St01_QACenterOutside_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.3"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "St01_QACenterOutside_Env_C'St01_QACenterOutside_Env:PersistentLevel.St01_QACenterOutside_Env_C_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.5"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "4D9C8117-4F3D1CF9-23E4B882-46FFB916",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "St01_QACenterOutside_Env_C",
+    "Name": "St01_QACenterOutside_Env_C_0",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.St01_QACenterOutside_Env_C'",
+    "Template": {
+      "ObjectName": "St01_QACenterOutside_Env_C'Default__St01_QACenterOutside_Env_C'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.1"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes20m_IZ_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_34.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_34.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes20m_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes20m_IZ_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes20m_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes80m_IZ_46.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipes80m_IZ_46.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointA_IZ_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointA_IZ_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointA_IZ_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointA_IZ_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointA_IZ_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_27.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_MiddlePipesJointA_IZ_27.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterAntenna_IZ_01_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterAntenna_IZ_01_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterAntenna_IZ_01_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterBottom_IZ_01_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterBottom_IZ_01_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterBottom_IZ_01_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDock_IZ_01_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_01_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_01_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDock_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDock_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDock_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDock_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_01_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_01_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_01_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterDockWall_IZ_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterDockWall_IZ_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterMiddle_IZ_01_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterMiddle_IZ_01_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterMiddle_IZ_01_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_01_55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_01_55.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_01_55.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_15.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_15.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_17.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_17.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_21.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_21.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailA_IZ_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailA_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_01_52",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_01_52.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_01_52.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_15",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_15.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_15.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.127"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.127"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_17",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_17.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.128"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_17.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.128"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_18",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.129"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_18.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.129"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_19.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.130"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_19.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.130"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.131"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.131"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.132"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.132"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_21",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_21.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.133"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_21.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.133"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_22",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_22.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.134"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_22.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.134"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.135"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.135"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.136"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.136"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.137"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.137"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierA_IZ_9",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.138"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierA_IZ_9.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.138"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierB_IZ_19",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_19.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.139"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_19.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.139"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterRailPierB_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.140"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterRailPierB_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.140"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_QACenterTop_IZ_01_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterTop_IZ_01_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.141"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_QACenterOutside_Env:PersistentLevel.SM_QACenterTop_IZ_01_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.141"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes20m_IZ_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes20m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes20m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9508.684,
+        "Y": -100127.53,
+        "Z": 9490.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes20m_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes20m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes20m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9948.684,
+        "Y": -100537.53,
+        "Z": 9370.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes20m_IZ_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes20m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes20m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 10288.619,
+        "Y": -100934.99,
+        "Z": 7380.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 1106.5651,
+        "Roll": 1156.565
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 10558.684,
+        "Y": -100127.53,
+        "Z": 6950.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointA_IZ_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointA_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9631.791,
+        "Y": -100862.336,
+        "Z": 9892.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 45.00005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointA_IZ_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointA_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9512.889,
+        "Y": -100131.98,
+        "Z": 7940.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 739.4712,
+        "Roll": 2320.5288
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointA_IZ_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointA_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9952.889,
+        "Y": -100541.98,
+        "Z": 7820.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 360.0,
+        "Roll": 490.00006
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointA_IZ_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointA_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 10112.889,
+        "Y": -100131.98,
+        "Z": 7480.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.00015026415,
+        "Yaw": -9.012222E-05,
+        "Roll": -9.6813426E-05
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointA_IZ_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointA_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9198.684,
+        "Y": -100457.53,
+        "Z": 10020.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 45.00005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterAntenna_IZ_01_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterAntenna_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterAntenna_IZ_01.2"
+      },
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 20900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterBottom_IZ_01_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterBottom_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterBottom_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 2900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDock_IZ_01_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDock_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDock_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 15340.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 45.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDock_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDock_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDock_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 15340.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 135.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDock_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDock_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDock_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 15340.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -45.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDock_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDock_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDock_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 15340.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -135.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_01_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8875.267,
+        "Y": -101062.13,
+        "Z": 6571.316
+      },
+      "RelativeRotation": {
+        "Pitch": -5.9764414,
+        "Yaw": 50.00046,
+        "Roll": 1.8456447E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8727.498,
+        "Y": -100804.0,
+        "Z": 7617.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 151.97514,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3095.9329,
+        "Y": -100871.375,
+        "Z": 7613.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.837872,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8654.2,
+        "Y": -100941.72,
+        "Z": 5987.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 151.97514,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3143.201,
+        "Y": -100953.76,
+        "Z": 5983.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.837872,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2580.609,
+        "Y": -101445.86,
+        "Z": 6249.5576
+      },
+      "RelativeRotation": {
+        "Pitch": -4.980922,
+        "Yaw": 135.01901,
+        "Roll": -0.43688944
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2763.7588,
+        "Y": -100983.46,
+        "Z": 9566.988
+      },
+      "RelativeRotation": {
+        "Pitch": -5.0,
+        "Yaw": 129.99998,
+        "Roll": 2.1425872E-07
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8868.533,
+        "Y": -100559.83,
+        "Z": 12535.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 155.60359,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2951.112,
+        "Y": -100598.59,
+        "Z": 12535.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.837872,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8795.159,
+        "Y": -100676.875,
+        "Z": 10890.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 151.97514,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3008.3625,
+        "Y": -100718.75,
+        "Z": 10886.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.837872,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8753.809,
+        "Y": -100754.56,
+        "Z": 9265.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 151.97514,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterDockWall_IZ_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterDockWall_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterDockWall_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 3052.1477,
+        "Y": -100795.06,
+        "Z": 9261.924
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 29.837872,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.875,
+        "Y": 0.75,
+        "Z": 0.875
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterMiddle_IZ_01_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterMiddle_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterMiddle_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 2900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_01_55",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2248.3145,
+        "Y": -101458.66,
+        "Z": 5858.6484
+      },
+      "RelativeRotation": {
+        "Pitch": -9.846491,
+        "Yaw": -85.15084,
+        "Roll": 1.753761
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1213.7812,
+        "Y": -76953.555,
+        "Z": 7553.5767
+      },
+      "RelativeRotation": {
+        "Pitch": 0.03731,
+        "Yaw": -79.92352,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -71848.055,
+        "Z": 5771.557
+      },
+      "RelativeRotation": {
+        "Pitch": -4.999993,
+        "Yaw": -90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -81810.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": -4.9999933,
+        "Yaw": -90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 535.8464,
+        "Y": -86799.414,
+        "Z": 7560.088
+      },
+      "RelativeRotation": {
+        "Pitch": 0.03731,
+        "Yaw": -79.92352,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -338.96722,
+        "Y": -81876.44,
+        "Z": 7556.831
+      },
+      "RelativeRotation": {
+        "Pitch": 0.03731,
+        "Yaw": -79.92352,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2682.5432,
+        "Y": -100958.87,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -49.99993,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -531.3992,
+        "Y": -97128.64,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -49.99993,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3745.3416,
+        "Y": -93298.42,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -49.99993,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 1831.8751,
+        "Y": -96549.914,
+        "Z": 6713.7007
+      },
+      "RelativeRotation": {
+        "Pitch": -9.846529,
+        "Yaw": -85.1508,
+        "Roll": 1.7537897
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -6959.282,
+        "Y": -89468.2,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -49.99993,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -10173.222,
+        "Y": -85637.984,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -49.99993,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 1405.41,
+        "Y": -91692.79,
+        "Z": 7563.3228
+      },
+      "RelativeRotation": {
+        "Pitch": 0.03731,
+        "Yaw": -79.92352,
+        "Roll": 0.867183
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -96810.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00003,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -91810.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00003,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -86810.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00003,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -96810.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": -14.941578,
+        "Yaw": -299.8248,
+        "Roll": -1.3377947
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailA_IZ_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -76829.02,
+        "Z": 5335.7783
+      },
+      "RelativeRotation": {
+        "Pitch": -4.9999933,
+        "Yaw": -90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_01_52",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2040.9529,
+        "Y": -99042.31,
+        "Z": 6253.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -84.99991,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_11",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -82510.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -77638.0,
+        "Z": 5205.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_13",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -68246.0,
+        "Z": 6024.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_14",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 10092.709,
+        "Y": -99178.23,
+        "Z": 5541.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -300.00018,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_15",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2055.2046,
+        "Y": -99082.484,
+        "Z": 4925.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -174.99985,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.9822886,
+        "Y": 1.625,
+        "Z": 1.625
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_16",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 857.1198,
+        "Y": -88553.63,
+        "Z": 7550.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.999855,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.51944315,
+        "Y": 0.45637465,
+        "Z": 0.52027446
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_17",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -169.15662,
+        "Y": -82733.38,
+        "Z": 7550.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.999855,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.519443,
+        "Y": 0.456375,
+        "Z": 0.520274
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_18",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1039.1477,
+        "Y": -77799.484,
+        "Z": 7550.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -79.999855,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.519443,
+        "Y": 0.456375,
+        "Z": 0.520274
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -82510.0,
+        "Z": 3588.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.8309671,
+        "Y": 1.4237106,
+        "Z": 1.4237106
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -96510.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -90502.0,
+        "Z": 3588.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.830967,
+        "Y": 1.423711,
+        "Z": 1.423711
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_21",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -86521.0,
+        "Z": 3588.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.830967,
+        "Y": 1.423711,
+        "Z": 1.423711
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_22",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -96490.0,
+        "Z": 3588.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.830967,
+        "Y": 1.423711,
+        "Z": 1.423711
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -77638.0,
+        "Z": 3883.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -180.00006,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.807495,
+        "Y": 1.0495616,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -90510.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_8",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9981.038,
+        "Y": -99113.64,
+        "Z": 4233.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -390.00024,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0915208,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierA_IZ_9",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierA_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11470.0,
+        "Y": -86510.0,
+        "Z": 4900.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierB_IZ_19",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierB_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1945.5225,
+        "Y": -95443.336,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -50.00006,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterRailPierB_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterRailPierB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterRailPierB_IZ_01.1"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -10430.308,
+        "Y": -85331.516,
+        "Z": 9100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -50.00006,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_QACenterTop_IZ_01_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_QACenterTop_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_QACenterOutside/SM_QACenterTop_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5900.0,
+        "Y": -104600.0,
+        "Z": 15340.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St01_QACenterOutside_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St01_QACenterOutside_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St01_QACenterOutside_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/QACenter/ENV/St01_QACenterOutside_Env.4"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

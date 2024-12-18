@@ -1,0 +1,6 @@
+Diffuse=T_Colum_SignBoardTextA_WB_01
+Emissive=T_Colum_SignBoardTextA_WB_01
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=DefaultTexture
+Other[2]=T_White_MM
+Other[3]=T_WhiteAlpha_MM

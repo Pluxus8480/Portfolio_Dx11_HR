@@ -1,0 +1,3 @@
+Enm_em7500_InstFx_4 : 팅
+Enm_em7500_InstFx_35 : 런지 몸박
+Enm_em7500_InstFx_32~Tempo_ 149.0 : 런지 칼질

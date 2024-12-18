@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d025580d-a746-40bf-84dc-6476e2dc4661}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Public\;..\..\EngineSDK\Inc\;../../External/Inc/Json/;../../External/Inc/FMOD/;../../External/Inc/Physx/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../External/lib/Physx/Debug/;../../EngineSDK/Lib/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;PhysX_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Public\;..\..\EngineSDK\Inc\;../../External/Inc/Json/;../../External/Inc/FMOD/;../../External/Inc/Physx/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Engine.lib;PhysX_64.lib;PhysXFoundation_64.lib;PhysXExtensions_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../External/lib/Physx/Release/;../../EngineSDK/Lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\808_Cat.h" />
+    <ClInclude Include="..\Public\808_Companion.h" />
+    <ClInclude Include="..\Public\808_Controller.h" />
+    <ClInclude Include="..\Public\808_Flare_Effect.h" />
+    <ClInclude Include="..\Public\808_Playable.h" />
+    <ClInclude Include="..\Public\AfterImage.h" />
+    <ClInclude Include="..\Public\BabooState.h" />
+    <ClInclude Include="..\Public\BabooState_Attack.h" />
+    <ClInclude Include="..\Public\BabooState_Damaged.h" />
+    <ClInclude Include="..\Public\BabooState_Dead.h" />
+    <ClInclude Include="..\Public\BabooState_Down.h" />
+    <ClInclude Include="..\Public\BabooState_Idle.h" />
+    <ClInclude Include="..\Public\BabooState_Intro.h" />
+    <ClInclude Include="..\Public\BabooState_Move.h" />
+    <ClInclude Include="..\Public\BackDancer.h" />
+    <ClInclude Include="..\Public\BackGround.h" />
+    <ClInclude Include="..\Public\Background_Effect.h" />
+    <ClInclude Include="..\Public\BallLighting.h" />
+    <ClInclude Include="..\Public\Balloon_Effect.h" />
+    <ClInclude Include="..\Public\Barrier.h" />
+    <ClInclude Include="..\Public\Basic_Guitar.h" />
+    <ClInclude Include="..\Public\BattleAreaDoor_PD.h" />
+    <ClInclude Include="..\Public\BeamCylinder.h" />
+    <ClInclude Include="..\Public\BeamDot_Flare_Effect.h" />
+    <ClInclude Include="..\Public\Beam_Effect.h" />
+    <ClInclude Include="..\Public\Beat_Manager.h" />
+    <ClInclude Include="..\Public\BG_Overrider.h" />
+    <ClInclude Include="..\Public\Blaze_Fire.h" />
+    <ClInclude Include="..\Public\Blaze_FireStarter.h" />
+    <ClInclude Include="..\Public\Boom_Font_Effect.h" />
+    <ClInclude Include="..\Public\BuiltIn_Magnet.h" />
+    <ClInclude Include="..\Public\BulbTrigger.h" />
+    <ClInclude Include="..\Public\Brake_Part.h" />
+    <ClInclude Include="..\Public\Bullet_Effect.h" />
+    <ClInclude Include="..\Public\CameraController.h" />
+    <ClInclude Include="..\Public\Camera_Bone.h" />
+    <ClInclude Include="..\Public\Camera_Void_Effect.h" />
+    <ClInclude Include="..\Public\Catwalk_Bridge.h" />
+    <ClInclude Include="..\Public\CBattle3rdAfter.h" />
+    <ClInclude Include="..\Public\CBattle3rdFloor.h" />
+    <ClInclude Include="..\Public\CCineSubTitleMgr.h" />
+    <ClInclude Include="..\Public\CContainerBreakPannel.h" />
+    <ClInclude Include="..\Public\CEvent_Chai.h" />
+    <ClInclude Include="..\Public\Chai.h" />
+    <ClInclude Include="..\Public\BigSlash_Effect.h" />
+    <ClInclude Include="..\Public\Chai_Random_Sound.h" />
+    <ClInclude Include="..\Public\CineTrigger.h" />
+    <ClInclude Include="..\Public\Cine_Camera.h" />
+    <ClInclude Include="..\Public\Cine_Manager.h" />
+    <ClInclude Include="..\Public\Cine_Scenario.h" />
+    <ClInclude Include="..\Public\Cine_Actor.h" />
+    <ClInclude Include="..\Public\Cine_Sequence.h" />
+    <ClInclude Include="..\Public\CJeongGimmicBase.h" />
+    <ClInclude Include="..\Public\CJeongGimmicBaseDefault.h" />
+    <ClInclude Include="..\Public\CKaleBoss_CineObj.h" />
+    <ClInclude Include="..\Public\CKaleBoss_ObjSystem.h" />
+    <ClInclude Include="..\Public\CKaleElevatorGenerator.h" />
+    <ClInclude Include="..\Public\CKale_Antenna.h" />
+    <ClInclude Include="..\Public\CKorsicaCamera.h" />
+    <ClInclude Include="..\Public\CMagnet.h" />
+    <ClInclude Include="..\Public\Effect_JudgementCut.h" />
+    <ClInclude Include="..\Public\Effect_ShakeFilter.h" />
+    <ClInclude Include="..\Public\Grass.h" />
+    <ClInclude Include="..\Public\GrassMatrix.h" />
+    <ClInclude Include="..\Public\ODS_Controller.h" />
+    <ClInclude Include="..\Public\Particle_Spark_Controller.h" />
+    <ClInclude Include="..\Public\CUi_CineAttackSystem.h" />
+    <ClInclude Include="..\Public\PickMeUp_Can.h" />
+    <ClInclude Include="..\Public\Rhythm_CleanSystem.h" />
+    <ClInclude Include="..\Public\CLevel_GimmicTest.h" />
+    <ClInclude Include="..\Public\CLevel_KorsicaTest.h" />
+    <ClInclude Include="..\Public\CMonster_Korsica.h" />
+    <ClInclude Include="..\Public\CNMN_Playable.h" />
+    <ClInclude Include="..\Public\ComboSwitch.h" />
+    <ClInclude Include="..\Public\ComboSwitchButton.h" />
+    <ClInclude Include="..\Public\CommonSwitch.h" />
+    <ClInclude Include="..\Public\ConveyorBelt.h" />
+    <ClInclude Include="..\Public\CRailContainer.h" />
+    <ClInclude Include="..\Public\CraneMagnet.h" />
+    <ClInclude Include="..\Public\CRobotBeamContainer.h" />
+    <ClInclude Include="..\Public\CRobotPunchBreakWall.h" />
+    <ClInclude Include="..\Public\CRobotPunchStaticWall.h" />
+    <ClInclude Include="..\Public\CScroll2DContainer.h" />
+    <ClInclude Include="..\Public\CTriggerBox.h" />
+    <ClInclude Include="..\Public\CUi_3DDefault.h" />
+    <ClInclude Include="..\Public\CUI_Animation.h" />
+    <ClInclude Include="..\Public\CUi_BeatMeter.h" />
+    <ClInclude Include="..\Public\CUI_CallFunction.h" />
+    <ClInclude Include="..\Public\CUi_CNMNRazer.h" />
+    <ClInclude Include="..\Public\CUi_CNMNRazorPart.h" />
+    <ClInclude Include="..\Public\CUi_ComboButton.h" />
+    <ClInclude Include="..\Public\CUi_DashEffect.h" />
+    <ClInclude Include="..\Public\CUi_DefaultBar.h" />
+    <ClInclude Include="..\Public\CUi_DefaultFont.h" />
+    <ClInclude Include="..\Public\CUi_DefaultLife.h" />
+    <ClInclude Include="..\Public\CUi_EnemySpecialAttack.h" />
+    <ClInclude Include="..\Public\CUi_EnemySpecialAttackPart.h" />
+    <ClInclude Include="..\Public\CUi_FightString.h" />
+    <ClInclude Include="..\Public\CUI_Frame.h" />
+    <ClInclude Include="..\Public\CUi_GeneratorSystem.h" />
+    <ClInclude Include="..\Public\CUi_JudgeWord.h" />
+    <ClInclude Include="..\Public\CUi_KaleGroggyGage.h" />
+    <ClInclude Include="..\Public\CUi_KaleHpBar.h" />
+    <ClInclude Include="..\Public\CUi_KaleSystem.h" />
+    <ClInclude Include="..\Public\CUi_KorsicaFace.h" />
+    <ClInclude Include="..\Public\CUi_KorsicaHpBar.h" />
+    <ClInclude Include="..\Public\CUi_KorsicaSystem.h" />
+    <ClInclude Include="..\Public\CUi_LogoButtonSystem.h" />
+    <ClInclude Include="..\Public\CUi_MapInterAction.h" />
+    <ClInclude Include="..\Public\CUi_MimosaBar.h" />
+    <ClInclude Include="..\Public\CUi_MimosaCutin.h" />
+    <ClInclude Include="..\Public\CUi_MImosaMusicBattleSystem.h" />
+    <ClInclude Include="..\Public\CUi_MimosaSystem.h" />
+    <ClInclude Include="..\Public\CUI_Move.h" />
+    <ClInclude Include="..\Public\CUi_PartIcon.h" />
+    <ClInclude Include="..\Public\CUi_PlayerHp.h" />
+    <ClInclude Include="..\Public\CUi_PlayerPartnerGauge.h" />
+    <ClInclude Include="..\Public\CUi_PlayerReverb.h" />
+    <ClInclude Include="..\Public\CUI_Scale.h" />
+    <ClInclude Include="..\Public\CUI_Sequence.h" />
+    <ClInclude Include="..\Public\CUi_SkillChangeSystem.h" />
+    <ClInclude Include="..\Public\CUi_SpecialComboAttackSystem.h" />
+    <ClInclude Include="..\Public\CUi_StunGaugeSystem.h" />
+    <ClInclude Include="..\Public\CUi_TramGauge.h" />
+    <ClInclude Include="..\Public\CUi_TramMacaronSign.h" />
+    <ClInclude Include="..\Public\CUi_TramTimer.h" />
+    <ClInclude Include="..\Public\CullingBox.h" />
+    <ClInclude Include="..\Public\Damage_PepperMint.h" />
+    <ClInclude Include="..\Public\Damage_SP.h" />
+    <ClInclude Include="..\Public\Damage_Special.h" />
+    <ClInclude Include="..\Public\CUi_SuccessSystem.h" />
+    <ClInclude Include="..\Public\Decal_Flare_Effect.h" />
+    <ClInclude Include="..\Public\Decal_SpotLight.h" />
+    <ClInclude Include="..\Public\DMGConsole.h" />
+    <ClInclude Include="..\Public\Drakken_Laser.h" />
+    <ClInclude Include="..\Public\Effect_Audience_Lower_Plane.h" />
+    <ClInclude Include="..\Public\Effect_Audience_Upper_Plane.h" />
+    <ClInclude Include="..\Public\Effect_Directional_Light_Controler.h" />
+    <ClInclude Include="..\Public\Effect_Filter_Focus_Trigger.h" />
+    <ClInclude Include="..\Public\Effect_FireWall.h" />
+    <ClInclude Include="..\Public\Effect_Kale_Barrier.h" />
+    <ClInclude Include="..\Public\Effect_Kale_Judgement.h" />
+    <ClInclude Include="..\Public\Effect_LightStick_Lower.h" />
+    <ClInclude Include="..\Public\Effect_LightStick_Lower_Plane.h" />
+    <ClInclude Include="..\Public\Effect_LightStick_Upper.h" />
+    <ClInclude Include="..\Public\Effect_LightStick_Upper_Plane.h" />
+    <ClInclude Include="..\public\Effect_Lens.h" />
+    <ClInclude Include="..\Public\Effect_Line.h" />
+    <ClInclude Include="..\Public\Effect_Mimosa_Barrier.h" />
+    <ClInclude Include="..\Public\Effect_Mimosa_Warning.h" />
+    <ClInclude Include="..\Public\Effect_ODSlash.h" />
+    <ClInclude Include="..\Public\Effect_Sun_Flare_Extend.h" />
+    <ClInclude Include="..\Public\EmissiveArrow.h" />
+    <ClInclude Include="..\Public\ExpandingCylinder.h" />
+    <ClInclude Include="..\Public\FireSwingEffect.h" />
+    <ClInclude Include="..\Public\FireWall_Effect.h" />
+    <ClInclude Include="..\Public\Flat_Fire_Effect.h" />
+    <ClInclude Include="..\Public\Font_Effect_Container_Donk.h" />
+    <ClInclude Include="..\Public\Font_Effect_Container_Spark.h" />
+    <ClInclude Include="..\Public\Font_Effect_Doon.h" />
+    <ClInclude Include="..\Public\Font_Effect_Charged.h" />
+    <ClInclude Include="..\Public\Font_Effect_Wvuong.h" />
+    <ClInclude Include="..\Public\Font_Mimosa_DoremiCode.h" />
+    <ClInclude Include="..\Public\Free_SignBoard.h" />
+    <ClInclude Include="..\Public\Frustum_Flare_Effect.h" />
+    <ClInclude Include="..\Public\GiantRobot.h" />
+    <ClInclude Include="..\Public\GiantRobot2.h" />
+    <ClInclude Include="..\Public\GiantRobot3.h" />
+    <ClInclude Include="..\Public\GiantRobot_Arm.h" />
+    <ClInclude Include="..\Public\Kale_BArm.h" />
+    <ClInclude Include="..\Public\Kale_BigSword.h" />
+    <ClInclude Include="..\Public\Monster_Blaze.h" />
+    <ClInclude Include="..\Public\Rekka_LightShaft.h" />
+    <ClInclude Include="..\Public\Rhythm_RobotArm.h" />
+    <ClInclude Include="..\Public\Sound_Explode_Effect.h" />
+    <ClInclude Include="..\Public\Spectra_FanBlade.h" />
+    <ClInclude Include="..\Public\Spectra_FanMachine.h" />
+    <ClInclude Include="..\Public\Kale_FArm.h" />
+    <ClInclude Include="..\Public\Kale_FinaleSequence.h" />
+    <ClInclude Include="..\Public\Kale_FireWall.h" />
+    <ClInclude Include="..\Public\Kale_Funnel.h" />
+    <ClInclude Include="..\Public\Kale_SArm.h" />
+    <ClInclude Include="..\Public\Krsc_Generator.h" />
+    <ClInclude Include="..\Public\Level_KaleStage.h" />
+    <ClInclude Include="..\Public\Level_Mimosa.h" />
+    <ClInclude Include="..\Public\Font_Effect_On.h" />
+    <ClInclude Include="..\Public\Kale_Sword.h" />
+    <ClInclude Include="..\Public\Level_KaleBoss.h" />
+    <ClInclude Include="..\Public\Level_CineTool.h" />
+    <ClInclude Include="..\Public\Light_Controller.h" />
+    <ClInclude Include="..\Public\MacaronCrane.h" />
+    <ClInclude Include="..\Public\MimosaWall.h" />
+    <ClInclude Include="..\Public\Mimosa_BackLEDText.h" />
+    <ClInclude Include="..\Public\Mimosa_BackMonitor.h" />
+    <ClInclude Include="..\Public\Mimosa_LightShaft.h" />
+    <ClInclude Include="..\Public\Mimosa_RingText.h" />
+    <ClInclude Include="..\Public\Mimosa_RoofLEDText.h" />
+    <ClInclude Include="..\Public\Mimosa_Floor.h" />
+    <ClInclude Include="..\Public\Mimosa_Letter_Bomb.h" />
+    <ClInclude Include="..\Public\Mimosa_Speaker.h" />
+    <ClInclude Include="..\Public\Mimosa_Visualizer.h" />
+    <ClInclude Include="..\Public\Mirror_Ball.h" />
+    <ClInclude Include="..\Public\Mimosa_SpotLight.h" />
+    <ClInclude Include="..\Public\Misc_Tower_Elec.h" />
+    <ClInclude Include="..\Public\Monster_Mimosa.h" />
+    <ClInclude Include="..\Public\Monster_SwordMachine.h" />
+    <ClInclude Include="..\Public\MovingFloor.h" />
+    <ClInclude Include="..\Public\Musician_Instrument.h" />
+    <ClInclude Include="..\Public\Musician_Robot.h" />
+    <ClInclude Include="..\Public\Particle_Fire.h" />
+    <ClInclude Include="..\Public\Particle_FireCracker_Normal.h" />
+    <ClInclude Include="..\Public\Particle_Fire_Loop.h" />
+    <ClInclude Include="..\Public\Particle_Mimosa_Panel.h" />
+    <ClInclude Include="..\Public\PeppermintContainer.h" />
+    <ClInclude Include="..\Public\Radial_Blur.h" />
+    <ClInclude Include="..\Public\Random_Laser.h" />
+    <ClInclude Include="..\Public\Rekka_Land_Spark.h" />
+    <ClInclude Include="..\Public\RhythmJump.h" />
+    <ClInclude Include="..\Public\SectionCullingBox.h" />
+    <ClInclude Include="..\Public\SpectraMeshGate.h" />
+    <ClInclude Include="..\Public\Spectra_Mark.h" />
+    <ClInclude Include="..\Public\SteelFrame_Platform.h" />
+    <ClInclude Include="..\Public\Sun_Flare_Effect.h" />
+    <ClInclude Include="..\Public\SwordMachine_Sword.h" />
+    <ClInclude Include="..\Public\TabletScreen.h" />
+    <ClInclude Include="..\Public\TalkTrigger.h" />
+    <ClInclude Include="..\Public\Tool_Cine_Camera.h" />
+    <ClInclude Include="..\Public\Tower_Elec.h" />
+    <ClInclude Include="..\Public\Tracking_Laser.h" />
+    <ClInclude Include="..\Public\TrulyInvisibleWall.h" />
+    <ClInclude Include="..\Public\UI_Event_Cut.h" />
+    <ClInclude Include="..\Public\Unlimited_Void_Effect.h" />
+    <ClInclude Include="..\Public\Enemy_Lift.h" />
+    <ClInclude Include="..\Public\EventTrigger.h" />
+    <ClInclude Include="..\Public\Cyclone.h" />
+    <ClInclude Include="..\Public\CUi_TreasureBox.h" />
+    <ClInclude Include="..\Public\CUi_TreasureBoxSystem.h" />
+    <ClInclude Include="..\Public\Damage_Effect.h" />
+    <ClInclude Include="..\Public\Dash_Effect.h" />
+    <ClInclude Include="..\Public\Decal_Ring_Effect.h" />
+    <ClInclude Include="..\Public\Decal_Special_Effect.h" />
+    <ClInclude Include="..\Public\EnemyGate.h" />
+    <ClInclude Include="..\Public\FadeElevator.h" />
+    <ClInclude Include="..\Public\Fan_Blade.h" />
+    <ClInclude Include="..\Public\Fan_Platform.h" />
+    <ClInclude Include="..\Public\FirstBattleWall.h" />
+    <ClInclude Include="..\Public\FloorSign.h" />
+    <ClInclude Include="..\Public\Font_Effect_Gyaaang.h" />
+    <ClInclude Include="..\Public\Font_Effect_HNGH.h" />
+    <ClInclude Include="..\Public\Font_Effect_Phaa.h" />
+    <ClInclude Include="..\Public\Font_Effect_RaEx_A.h" />
+    <ClInclude Include="..\Public\Font_Effect_RaEx_Ex.h" />
+    <ClInclude Include="..\Public\Font_Effect_RaEx_R.h" />
+    <ClInclude Include="..\Public\Font_Effect_Rekka_Slam.h" />
+    <ClInclude Include="..\Public\Font_Effect_Shoom.h" />
+    <ClInclude Include="..\Public\Font_Effect_Shwaa.h" />
+    <ClInclude Include="..\Public\Font_Effect_Zing.h" />
+    <ClInclude Include="..\Public\GaraElevator.h" />
+    <ClInclude Include="..\Public\GearWall.h" />
+    <ClInclude Include="..\Public\Generator.h" />
+    <ClInclude Include="..\Public\Glow_Slash_Effect.h" />
+    <ClInclude Include="..\Public\GunnerState_Down.h" />
+    <ClInclude Include="..\Public\GunnerState_Intro.h" />
+    <ClInclude Include="..\Public\HammerOn_Effect.h" />
+    <ClInclude Include="..\Public\Hanging_Platform.h" />
+    <ClInclude Include="..\Public\Hit_Base.h" />
+    <ClInclude Include="..\Public\Hit_Electro.h" />
+    <ClInclude Include="..\Public\Hit_Hard.h" />
+    <ClInclude Include="..\Public\Hit_Special.h" />
+    <ClInclude Include="..\Public\Impact_Shock_Bigger_Effect.h" />
+    <ClInclude Include="..\Public\InvisibleCylinderWall.h" />
+    <ClInclude Include="..\Public\InvisibleWall.h" />
+    <ClInclude Include="..\Public\JustMark_Effect.h" />
+    <ClInclude Include="..\Public\KrscRoomWall.h" />
+    <ClInclude Include="..\Public\LargeElevator.h" />
+    <ClInclude Include="..\Public\Laser_Warning_Effect.h" />
+    <ClInclude Include="..\Public\LevelUp_Machine.h" />
+    <ClInclude Include="..\Public\Level_ModelTest.h" />
+    <ClInclude Include="..\Public\Lift_Speed_Effect.h" />
+    <ClInclude Include="..\Public\MapManager.h" />
+    <ClInclude Include="..\Public\Misc_Interface.h" />
+    <ClInclude Include="..\Public\Monster_Kale.h" />
+    <ClInclude Include="..\Public\Particle_Anime_Spark.h" />
+    <ClInclude Include="..\Public\PepperMint_Effect_MF_1.h" />
+    <ClInclude Include="..\Public\PepperMint_Effect_MF_2.h" />
+    <ClInclude Include="..\Public\PickUpItem.h" />
+    <ClInclude Include="..\Public\QACenterDoor.h" />
+    <ClInclude Include="..\Public\RekkaRoomDoor.h" />
+    <ClInclude Include="..\Public\RekkaState_Elect.h" />
+    <ClInclude Include="..\Public\RekkaState_Event.h" />
+    <ClInclude Include="..\Public\RekkaState_Gimmick.h" />
+    <ClInclude Include="..\Public\RekkaState_Groggy.h" />
+    <ClInclude Include="..\Public\RekkaState_Pase_2.h" />
+    <ClInclude Include="..\Public\RekkaState_Pase_3.h" />
+    <ClInclude Include="..\Public\RekkaState_Pase_4.h" />
+    <ClInclude Include="..\Public\RekkaState_Pase_Dead.h" />
+    <ClInclude Include="..\Public\RekkaState_PipeAtt_Long.h" />
+    <ClInclude Include="..\Public\RekkaState_PipeAtt_Short.h" />
+    <ClInclude Include="..\Public\Rekka_Dash_Effect.h" />
+    <ClInclude Include="..\Public\Rekka_Elect_Wire.h" />
+    <ClInclude Include="..\Public\Rekka_Gauntlet.h" />
+    <ClInclude Include="..\Public\Rekka_GenCover.h" />
+    <ClInclude Include="..\Public\Rekka_Generator.h" />
+    <ClInclude Include="..\Public\Boss_InteractObj.h" />
+    <ClInclude Include="..\Public\Rekka_Logo.h" />
+    <ClInclude Include="..\Public\Rekka_MonitorBase.h" />
+    <ClInclude Include="..\Public\Rekka_Monitor_L.h" />
+    <ClInclude Include="..\Public\Rekka_Monitor_S.h" />
+    <ClInclude Include="..\Public\Rekka_PhaseText.h" />
+    <ClInclude Include="..\Public\RhythmWall.h" />
+    <ClInclude Include="..\Public\SaberState_Intro.h" />
+    <ClInclude Include="..\Public\SignBoard.h" />
+    <ClInclude Include="..\Public\Rekka_Pipe_Door.h" />
+    <ClInclude Include="..\Public\SignBoard_Platform.h" />
+    <ClInclude Include="..\Public\SignPlane.h" />
+    <ClInclude Include="..\Public\SkySphere.h" />
+    <ClInclude Include="..\Public\Slam_Effect.h" />
+    <ClInclude Include="..\Public\SmallElevator.h" />
+    <ClInclude Include="..\Public\FloorSwitch.h" />
+    <ClInclude Include="..\Public\FloorSwitchButton.h" />
+    <ClInclude Include="..\Public\Font_Effect_Bam_A.h" />
+    <ClInclude Include="..\Public\Font_Effect_Bam_B.h" />
+    <ClInclude Include="..\Public\Font_Effect_Bam_M.h" />
+    <ClInclude Include="..\Public\Free_SM_Object.h" />
+    <ClInclude Include="..\Public\GimmickManager.h" />
+    <ClInclude Include="..\Public\GimmickBase.h" />
+    <ClInclude Include="..\Public\ConvexLens_Effect.h" />
+    <ClInclude Include="..\Public\Client_Defines.h" />
+    <ClInclude Include="..\Public\Client_Option.h" />
+    <ClInclude Include="..\Public\CUi_Canvas.h" />
+    <ClInclude Include="..\Public\CUi_CommandIcon.h" />
+    <ClInclude Include="..\Public\CUi_EquipDefault.h" />
+    <ClInclude Include="..\Public\CUi_Font.h" />
+    <ClInclude Include="..\Public\CUi_GearSystem.h" />
+    <ClInclude Include="..\Public\CUi_LoadingSystem.h" />
+    <ClInclude Include="..\Public\CUi_RekkaDeco.h" />
+    <ClInclude Include="..\Public\CUi_RekkaDecoEffect.h" />
+    <ClInclude Include="..\Public\CUi_RekkaHp.h" />
+    <ClInclude Include="..\Public\CUi_RekkaSystem.h" />
+    <ClInclude Include="..\Public\CUi_SkillCutScene.h" />
+    <ClInclude Include="..\Public\CUi_Sprite.h" />
+    <ClInclude Include="..\Public\CUi_StoreEdge.h" />
+    <ClInclude Include="..\Public\CUi_StoreEquipBar.h" />
+    <ClInclude Include="..\Public\Dot_Flare_Effect.h" />
+    <ClInclude Include="..\Public\EffectData.h" />
+    <ClInclude Include="..\Public\CombatManager.h" />
+    <ClInclude Include="..\Public\CUi_BeatJudge.h" />
+    <ClInclude Include="..\Public\CUi_BeatMarker.h" />
+    <ClInclude Include="..\Public\CUi_BeatMarkerSystem.h" />
+    <ClInclude Include="..\Public\CUi_Chip.h" />
+    <ClInclude Include="..\Public\CUi_ComboNum.h" />
+    <ClInclude Include="..\Public\CUi_ComboWordHits.h" />
+    <ClInclude Include="..\Public\CUi_FinalResult.h" />
+    <ClInclude Include="..\Public\CUi_FinalResultSystem.h" />
+    <ClInclude Include="..\Public\CUi_PlayerBar.h" />
+    <ClInclude Include="..\Public\CUi_RankSystem.h" />
+    <ClInclude Include="..\Public\CUi_ScoreSystem.h" />
+    <ClInclude Include="..\Public\CUi_StageCorus.h" />
+    <ClInclude Include="..\Public\CUi_StageResultSystem.h" />
+    <ClInclude Include="..\Public\CUi_StageResult_Bonus.h" />
+    <ClInclude Include="..\Public\CUi_StageResult_FinalScore.h" />
+    <ClInclude Include="..\Public\CUi_Store.h" />
+    <ClInclude Include="..\Public\CUi_StoreAttack.h" />
+    <ClInclude Include="..\Public\CUi_StoreBar.h" />
+    <ClInclude Include="..\Public\CUi_StoreBuyBar.h" />
+    <ClInclude Include="..\Public\CUi_StoreChip.h" />
+    <ClInclude Include="..\Public\CUi_StoreChipDesc.h" />
+    <ClInclude Include="..\Public\CUi_StoreChipEquip.h" />
+    <ClInclude Include="..\Public\CUi_StoreItem.h" />
+    <ClInclude Include="..\Public\CUi_StoreSkillEquip.h" />
+    <ClInclude Include="..\Public\CUi_StoreSkill.h" />
+    <ClInclude Include="..\Public\CUi_TalkSystem.h" />
+    <ClInclude Include="..\Public\CUi_UpRightBack.h" />
+    <ClInclude Include="..\Public\CUi_StoreDesc.h" />
+    <ClInclude Include="..\Public\CUi_StoreEntry.h" />
+    <ClInclude Include="..\Public\CUi_StoreSystem.h" />
+    <ClInclude Include="..\Public\Decal_Effect.h" />
+    <ClInclude Include="..\Public\Effect_Base.h" />
+    <ClInclude Include="..\Public\CUi_Mgr.h" />
+    <ClInclude Include="..\Public\Effect_Manager.h" />
+    <ClInclude Include="..\Public\Effect_Union.h" />
+    <ClInclude Include="..\Public\EnemySlash_Effect.h" />
+    <ClInclude Include="..\Public\Explosion_Effect.h" />
+    <ClInclude Include="..\Public\Fire_Effect.h" />
+    <ClInclude Include="..\Public\Flare_Effect.h" />
+    <ClInclude Include="..\Public\Flat_Wave_Effect.h" />
+    <ClInclude Include="..\Public\Free_SK_Object.h" />
+    <ClInclude Include="..\Public\GameManager.h" />
+    <ClInclude Include="..\Public\GlassWall.h" />
+    <ClInclude Include="..\Public\GridBox.h" />
+    <ClInclude Include="..\Public\GunnerState.h" />
+    <ClInclude Include="..\Public\GunnerState_Attack.h" />
+    <ClInclude Include="..\Public\GunnerState_Damaged.h" />
+    <ClInclude Include="..\Public\GunnerState_Dead.h" />
+    <ClInclude Include="..\Public\GunnerState_Idle.h" />
+    <ClInclude Include="..\Public\GunnerState_Move.h" />
+    <ClInclude Include="..\Public\Harmonic_Beam.h" />
+    <ClInclude Include="..\Public\Imgui_Manager.h" />
+    <ClInclude Include="..\Public\Impact_Ring_Effect.h" />
+    <ClInclude Include="..\Public\Impact_Shock_Effect.h" />
+    <ClInclude Include="..\Public\Impact_Smack_Shock_Effect.h" />
+    <ClInclude Include="..\Public\Impact_Spark_Effect.h" />
+    <ClInclude Include="..\Public\Korsica.h" />
+    <ClInclude Include="..\Public\LandImpact_Effect.h" />
+    <ClInclude Include="..\Public\LandJumpImpact_Effect.h" />
+    <ClInclude Include="..\Public\LaserBoard.h" />
+    <ClInclude Include="..\Public\LaserCircuit.h" />
+    <ClInclude Include="..\Public\LaserPillar.h" />
+    <ClInclude Include="..\Public\LaserPod.h" />
+    <ClInclude Include="..\Public\LaserReward.h" />
+    <ClInclude Include="..\Public\Level_AnimTool.h" />
+    <ClInclude Include="..\Public\Level_Effect.h" />
+    <ClInclude Include="..\Public\Level_Lift.h" />
+    <ClInclude Include="..\Public\Level_MapTool.h" />
+    <ClInclude Include="..\Public\Level_Ui.h" />
+    <ClInclude Include="..\Public\Lift.h" />
+    <ClInclude Include="..\Public\Light_Effect.h" />
+    <ClInclude Include="..\Public\MapObject_Anim.h" />
+    <ClInclude Include="..\Public\MapObject_Static.h" />
+    <ClInclude Include="..\Public\Mesh_Shock_Effect.h" />
+    <ClInclude Include="..\Public\Macaron.h" />
+    <ClInclude Include="..\Public\MonsterBase.h" />
+    <ClInclude Include="..\Public\MonsterSpawner.h" />
+    <ClInclude Include="..\Public\Monster_Baboo.h" />
+    <ClInclude Include="..\Public\Monster_Gunner.h" />
+    <ClInclude Include="..\Public\Monster_Rekka.h" />
+    <ClInclude Include="..\Public\Monster_Saber.h" />
+    <ClInclude Include="..\Public\Monster_Samurai.h" />
+    <ClInclude Include="..\Public\Panel_Lift.h" />
+    <ClInclude Include="..\Public\Panel_Warning.h" />
+    <ClInclude Include="..\Public\MovingWall.h" />
+    <ClInclude Include="..\Public\Parry_Effect.h" />
+    <ClInclude Include="..\Public\PartDoor.h" />
+    <ClInclude Include="..\Public\PartDoorFrame.h" />
+    <ClInclude Include="..\Public\Particle_Effect.h" />
+    <ClInclude Include="..\Public\Particle_Spark.h" />
+    <ClInclude Include="..\Public\Peppermint.h" />
+    <ClInclude Include="..\Public\Button_Platform.h" />
+    <ClInclude Include="..\Public\PlatformSpawner.h" />
+    <ClInclude Include="..\Public\Player_Camera.h" />
+    <ClInclude Include="..\Public\PodLaser.h" />
+    <ClInclude Include="..\Public\Procedural_Cyclone_Effect.h" />
+    <ClInclude Include="..\Public\ProdDeptDoor.h" />
+    <ClInclude Include="..\Public\RekkaState.h" />
+    <ClInclude Include="..\Public\RekkaState_Attack.h" />
+    <ClInclude Include="..\Public\RekkaState_Idle.h" />
+    <ClInclude Include="..\Public\RekkaState_Intro.h" />
+    <ClInclude Include="..\Public\RekkaState_Move.h" />
+    <ClInclude Include="..\Public\RekkaState_Pipe.h" />
+    <ClInclude Include="..\Public\RekkaState_Rotate.h" />
+    <ClInclude Include="..\Public\Rekka_Long_Pipe.h" />
+    <ClInclude Include="..\Public\Rekka_Pipe_L.h" />
+    <ClInclude Include="..\Public\Rekka_Spark_Impact.h" />
+    <ClInclude Include="..\Public\Rekka_Spark_Lightning.h" />
+    <ClInclude Include="..\Public\Rekka_Pipe_R.h" />
+    <ClInclude Include="..\Public\ResourceWizard.h" />
+    <ClInclude Include="..\Public\CUi.h" />
+    <ClInclude Include="..\Public\CUi_2D.h" />
+    <ClInclude Include="..\Public\CUi_Default.h" />
+    <ClInclude Include="..\Public\Level_Loading.h" />
+    <ClInclude Include="..\Public\Level_Logo.h" />
+    <ClInclude Include="..\Public\Level_Test.h" />
+    <ClInclude Include="..\Public\Loader.h" />
+    <ClInclude Include="..\Public\Load_Include.h" />
+    <ClInclude Include="..\Public\MainApp.h" />
+    <ClInclude Include="..\Public\PlayerManager.h" />
+    <ClInclude Include="..\Public\ReverbGaugeRoom.h" />
+    <ClInclude Include="..\Public\Ring_Effect.h" />
+    <ClInclude Include="..\Public\SaberState.h" />
+    <ClInclude Include="..\Public\SaberState_Attack.h" />
+    <ClInclude Include="..\Public\SaberState_Damaged.h" />
+    <ClInclude Include="..\Public\SaberState_Dead.h" />
+    <ClInclude Include="..\Public\SaberState_Down.h" />
+    <ClInclude Include="..\Public\SaberState_Idle.h" />
+    <ClInclude Include="..\Public\SaberState_Move.h" />
+    <ClInclude Include="..\Public\Saber_Weapon.h" />
+    <ClInclude Include="..\Public\Schwing_Font.h" />
+    <ClInclude Include="..\Public\Shash_Font.h" />
+    <ClInclude Include="..\Public\Shock_Effect_Font_A.h" />
+    <ClInclude Include="..\Public\Shock_Effect_Font_D.h" />
+    <ClInclude Include="..\Public\SkyBox.h" />
+    <ClInclude Include="..\Public\Slate_Platform.h" />
+    <ClInclude Include="..\Public\Smack_Font_Effect.h" />
+    <ClInclude Include="..\Public\Smoke_Cover.h" />
+    <ClInclude Include="..\Public\Smoke_Effect.h" />
+    <ClInclude Include="..\Public\Smoke_Explode_Effect.h" />
+    <ClInclude Include="..\Public\Snap_Font_Effect.h" />
+    <ClInclude Include="..\Public\Snap_Impact_Effect.h" />
+    <ClInclude Include="..\Public\SpawnTrigger_Monster.h" />
+    <ClInclude Include="..\Public\SpawnTrigger_Platform.h" />
+    <ClInclude Include="..\Public\Special_Effect_PS_Spark.h" />
+    <ClInclude Include="..\Public\Square_Flare_Effect.h" />
+    <ClInclude Include="..\Public\StarSymbol_Effect.h" />
+    <ClInclude Include="..\Public\Swing_Effect.h" />
+    <ClInclude Include="..\Public\SwitchButton.h" />
+    <ClInclude Include="..\Public\SwitchFence.h" />
+    <ClInclude Include="..\Public\TestEffect.h" />
+    <ClInclude Include="..\Public\Texture_Effect.h" />
+    <ClInclude Include="..\Public\Tool_Camera.h" />
+    <ClInclude Include="..\Public\Trigger.h" />
+    <ClInclude Include="..\Public\TriggerBox_Level.h" />
+    <ClInclude Include="..\Public\Tunnel.h" />
+    <ClInclude Include="..\Public\UnionEffectData.h" />
+    <ClInclude Include="..\Public\Vergil.h" />
+    <ClInclude Include="..\Public\WarningDecalCircle_Effect.h" />
+    <ClInclude Include="..\Public\WarningDecal_Effect.h" />
+    <ClInclude Include="..\Public\WarningDecal_Narrowing_Effect.h" />
+    <ClInclude Include="..\Public\Wave_Effect.h" />
+    <ClInclude Include="..\Public\Weapon_Korsica.h" />
+    <ClInclude Include="..\Public\Weapon_Mimosa.h" />
+    <ClInclude Include="..\Public\Weapon_Peppermint.h" />
+    <ClInclude Include="..\Public\Wire.h" />
+    <ClInclude Include="..\Public\WireMagnet.h" />
+    <ClInclude Include="..\Public\WoodenBox.h" />
+    <ClInclude Include="..\Public\Zap_Effect.h" />
+    <ClInclude Include="..\Public\ZipLine_Magnet.h" />
+    <ClInclude Include="..\Public\ZipLine_Obstacle.h" />
+    <ClInclude Include="..\Public\ZipLine_Rail.h" />
+    <ClInclude Include="..\Public\ZipLine_RailPart.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\808_Cat.cpp" />
+    <ClCompile Include="..\Private\808_Companion.cpp" />
+    <ClCompile Include="..\Private\808_Controller.cpp" />
+    <ClCompile Include="..\Private\808_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\808_Playable.cpp" />
+    <ClCompile Include="..\Private\AfterImage.cpp" />
+    <ClCompile Include="..\Private\BabooState.cpp" />
+    <ClCompile Include="..\Private\BabooState_Attack.cpp" />
+    <ClCompile Include="..\Private\BabooState_Damaged.cpp" />
+    <ClCompile Include="..\Private\BabooState_Dead.cpp" />
+    <ClCompile Include="..\Private\BabooState_Down.cpp" />
+    <ClCompile Include="..\Private\BabooState_Idle.cpp" />
+    <ClCompile Include="..\Private\BabooState_Intro.cpp" />
+    <ClCompile Include="..\Private\BabooState_Move.cpp" />
+    <ClCompile Include="..\Private\BackDancer.cpp" />
+    <ClCompile Include="..\Private\BackGround.cpp" />
+    <ClCompile Include="..\Private\Background_Effect.cpp" />
+    <ClCompile Include="..\Private\BallLighting.cpp" />
+    <ClCompile Include="..\Private\Balloon_Effect.cpp" />
+    <ClCompile Include="..\Private\Barrier.cpp" />
+    <ClCompile Include="..\Private\Basic_Guitar.cpp" />
+    <ClCompile Include="..\Private\BattleAreaDoor_PD.cpp" />
+    <ClCompile Include="..\Private\BeamCylinder.cpp" />
+    <ClCompile Include="..\Private\BeamDot_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\Beam_Effect.cpp" />
+    <ClCompile Include="..\Private\Beat_Manager.cpp" />
+    <ClCompile Include="..\Private\BG_Overrider.cpp" />
+    <ClCompile Include="..\Private\Blaze_Fire.cpp" />
+    <ClCompile Include="..\Private\Blaze_FireStarter.cpp" />
+    <ClCompile Include="..\Private\Boom_Font_Effect.cpp" />
+    <ClCompile Include="..\Private\BuiltIn_Magnet.cpp" />
+    <ClCompile Include="..\Private\BulbTrigger.cpp" />
+    <ClCompile Include="..\Private\Bullet_Effect.cpp" />
+    <ClCompile Include="..\Private\CameraController.cpp" />
+    <ClCompile Include="..\Private\Camera_Bone.cpp" />
+    <ClCompile Include="..\Private\Camera_Void_Effect.cpp" />
+    <ClCompile Include="..\Private\Catwalk_Bridge.cpp" />
+    <ClCompile Include="..\Private\CBattle3rdAfter.cpp" />
+    <ClCompile Include="..\Private\CBattle3rdFloor.cpp" />
+    <ClCompile Include="..\Private\CCineSubTitleMgr.cpp" />
+    <ClCompile Include="..\Private\CContainerBreakPannel.cpp" />
+    <ClCompile Include="..\Private\CEvent_Chai.cpp" />
+    <ClCompile Include="..\Private\Chai_Random_Sound.cpp" />
+    <ClCompile Include="..\Private\CineTrigger.cpp" />
+    <ClCompile Include="..\Private\Cine_Camera.cpp" />
+    <ClCompile Include="..\Private\Cine_Manager.cpp" />
+    <ClCompile Include="..\Private\Cine_Scenario.cpp" />
+    <ClCompile Include="..\Private\Cine_Actor.cpp" />
+    <ClCompile Include="..\Private\Cine_Sequence.cpp" />
+    <ClCompile Include="..\Private\CJeongGimmicBase.cpp" />
+    <ClCompile Include="..\Private\CJeongGimmicBaseDefault.cpp" />
+    <ClCompile Include="..\Private\CKaleBoss_CineObj.cpp" />
+    <ClCompile Include="..\Private\CKaleBoss_ObjSystem.cpp" />
+    <ClCompile Include="..\Private\CKaleElevatorGenerator.cpp" />
+    <ClCompile Include="..\Private\CKale_Antenna.cpp" />
+    <ClCompile Include="..\Private\CKorsicaCamera.cpp" />
+    <ClCompile Include="..\Private\CMagnet.cpp" />
+    <ClCompile Include="..\Private\Effect_JudgementCut.cpp" />
+    <ClCompile Include="..\Private\Effect_ShakeFilter.cpp" />
+    <ClCompile Include="..\Private\Grass.cpp" />
+    <ClCompile Include="..\Private\GrassMatrix.cpp" />
+    <ClCompile Include="..\Private\ODS_Controller.cpp" />
+    <ClCompile Include="..\Private\Particle_Spark_Controller.cpp" />
+    <ClCompile Include="..\Private\CUi_CineAttackSystem.cpp" />
+    <ClCompile Include="..\Private\PickMeUp_Can.cpp" />
+    <ClCompile Include="..\Private\Rhythm_CleanSystem.cpp" />
+    <ClCompile Include="..\Private\CLevel_GimmicTest.cpp" />
+    <ClCompile Include="..\Private\CNMN_Playable.cpp" />
+    <ClCompile Include="..\Private\CRailContainer.cpp" />
+    <ClCompile Include="..\Private\CraneMagnet.cpp" />
+    <ClCompile Include="..\Private\CRobotBeamContainer.cpp" />
+    <ClCompile Include="..\Private\CRobotPunchBreakWall.cpp" />
+    <ClCompile Include="..\Private\CRobotPunchStaticWall.cpp" />
+    <ClCompile Include="..\Private\CScroll2DContainer.cpp" />
+    <ClCompile Include="..\Private\CTriggerBox.cpp" />
+    <ClCompile Include="..\Private\CUi_3DDefault.cpp" />
+    <ClCompile Include="..\Private\CUI_Animation.cpp" />
+    <ClCompile Include="..\Private\CUi_BeatMeter.cpp" />
+    <ClCompile Include="..\Private\CUI_CallFunction.cpp" />
+    <ClCompile Include="..\Private\CUi_CNMNRazer.cpp" />
+    <ClCompile Include="..\Private\CUi_CNMNRazorPart.cpp" />
+    <ClCompile Include="..\Private\CUi_DashEffect.cpp" />
+    <ClCompile Include="..\Private\CUi_DefaultBar.cpp" />
+    <ClCompile Include="..\Private\CUi_DefaultFont.cpp" />
+    <ClCompile Include="..\Private\CUi_DefaultLife.cpp" />
+    <ClCompile Include="..\Private\CUi_EnemySpecialAttackPart.cpp" />
+    <ClCompile Include="..\Private\CUI_Frame.cpp" />
+    <ClCompile Include="..\Private\CUi_GeneratorSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_KaleGroggyGage.cpp" />
+    <ClCompile Include="..\Private\CUi_KaleHpBar.cpp" />
+    <ClCompile Include="..\Private\CUi_KaleSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_LogoButtonSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_MapInterAction.cpp" />
+    <ClCompile Include="..\Private\CUi_MimosaBar.cpp" />
+    <ClCompile Include="..\Private\CUI_MimosaCutin.cpp" />
+    <ClCompile Include="..\Private\CUi_MImosaMusicBattleSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_MimosaSystem.cpp" />
+    <ClCompile Include="..\Private\CUI_Move.cpp" />
+    <ClCompile Include="..\Private\CUi_PlayerPartnerGauge.cpp" />
+    <ClCompile Include="..\Private\CUI_Scale.cpp" />
+    <ClCompile Include="..\Private\CUI_Sequence.cpp" />
+    <ClCompile Include="..\Private\CUi_SkillChangeSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_SpecialComboAttackSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_StunGaugeSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_TramGauge.cpp" />
+    <ClCompile Include="..\Private\CUi_TramMacaronSign.cpp" />
+    <ClCompile Include="..\Private\CUi_TramTimer.cpp" />
+    <ClCompile Include="..\Private\CullingBox.cpp" />
+    <ClCompile Include="..\Private\Damage_PepperMint.cpp" />
+    <ClCompile Include="..\Private\Damage_SP.cpp" />
+    <ClCompile Include="..\Private\Damage_Special.cpp" />
+    <ClCompile Include="..\Private\CUi_SuccessSystem.cpp" />
+    <ClCompile Include="..\Private\Decal_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\Decal_SpotLight.cpp" />
+    <ClCompile Include="..\Private\DMGConsole.cpp" />
+    <ClCompile Include="..\Private\Drakken_Laser.cpp" />
+    <ClCompile Include="..\Private\Effect_Audience_Lower_Plane.cpp" />
+    <ClCompile Include="..\Private\Effect_Audience_Upper_Plane.cpp" />
+    <ClCompile Include="..\Private\Effect_Directional_Light_Controler.cpp" />
+    <ClCompile Include="..\Private\Effect_Filter_Focus_Trigger.cpp" />
+    <ClCompile Include="..\Private\Effect_FireWall.cpp" />
+    <ClCompile Include="..\Private\Effect_Kale_Barrier.cpp" />
+    <ClCompile Include="..\Private\Effect_Kale_Judgement.cpp" />
+    <ClCompile Include="..\Private\Effect_LightStick_Lower.cpp" />
+    <ClCompile Include="..\Private\Effect_LightStick_Lower_Plane.cpp" />
+    <ClCompile Include="..\Private\Effect_LightStick_Upper.cpp" />
+    <ClCompile Include="..\Private\Effect_LightStick_Upper_Plane.cpp" />
+    <ClCompile Include="..\Private\Effect_Lens.cpp" />
+    <ClCompile Include="..\Private\Effect_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_Mimosa_Barrier.cpp" />
+    <ClCompile Include="..\Private\Effect_Mimosa_Warning.cpp" />
+    <ClCompile Include="..\Private\Effect_ODSlash.cpp" />
+    <ClCompile Include="..\Private\Effect_Sun_Flare_Extend.cpp" />
+    <ClCompile Include="..\Private\EmissiveArrow.cpp" />
+    <ClCompile Include="..\Private\ExpandingCylinder.cpp" />
+    <ClCompile Include="..\Private\FireSwingEffect.cpp" />
+    <ClCompile Include="..\Private\FireWall_Effect.cpp" />
+    <ClCompile Include="..\Private\Flat_Fire_Effect.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Container_Donk.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Container_Spark.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Doon.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Charged.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_On.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Wvuong.cpp" />
+    <ClCompile Include="..\Private\Font_Mimosa_DoremiCode.cpp" />
+    <ClCompile Include="..\Private\Free_SignBoard.cpp" />
+    <ClCompile Include="..\Private\Frustum_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\GiantRobot.cpp" />
+    <ClCompile Include="..\Private\GiantRobot2.cpp" />
+    <ClCompile Include="..\Private\GiantRobot3.cpp" />
+    <ClCompile Include="..\Private\GiantRobot_Arm.cpp" />
+    <ClCompile Include="..\Private\Kale_BArm.cpp" />
+    <ClCompile Include="..\Private\Kale_BigSword.cpp" />
+    <ClCompile Include="..\Private\Monster_Blaze.cpp" />
+    <ClCompile Include="..\Private\Rekka_LightShaft.cpp" />
+    <ClCompile Include="..\Private\Rhythm_RobotArm.cpp" />
+    <ClCompile Include="..\Private\Sound_Explode_Effect.cpp" />
+    <ClCompile Include="..\Private\Spectra_FanBlade.cpp" />
+    <ClCompile Include="..\Private\Spectra_FanMachine.cpp" />
+    <ClCompile Include="..\Private\Kale_FArm.cpp" />
+    <ClCompile Include="..\Private\Kale_FinaleSequence.cpp" />
+    <ClCompile Include="..\Private\Kale_FireWall.cpp" />
+    <ClCompile Include="..\Private\Kale_Funnel.cpp" />
+    <ClCompile Include="..\Private\Kale_SArm.cpp" />
+    <ClCompile Include="..\Private\Kale_Sword.cpp" />
+    <ClCompile Include="..\Private\Krsc_Generator.cpp" />
+    <ClCompile Include="..\Private\Level_KaleBoss.cpp" />
+    <ClCompile Include="..\Private\Level_KaleStage.cpp" />
+    <ClCompile Include="..\Private\Level_Mimosa.cpp" />
+    <ClCompile Include="..\Private\Level_CineTool.cpp" />
+    <ClCompile Include="..\Private\Light_Controller.cpp" />
+    <ClCompile Include="..\Private\MacaronCrane.cpp" />
+    <ClCompile Include="..\Private\MimosaWall.cpp" />
+    <ClCompile Include="..\Private\Mimosa_BackLEDText.cpp" />
+    <ClCompile Include="..\Private\Mimosa_BackMonitor.cpp" />
+    <ClCompile Include="..\Private\Mimosa_LightShaft.cpp" />
+    <ClCompile Include="..\Private\Mimosa_RingText.cpp" />
+    <ClCompile Include="..\Private\Mimosa_RoofLEDText.cpp" />
+    <ClCompile Include="..\Private\Mimosa_Floor.cpp" />
+    <ClCompile Include="..\Private\Mimosa_Letter_Bomb.cpp" />
+    <ClCompile Include="..\Private\Mimosa_Speaker.cpp" />
+    <ClCompile Include="..\Private\Mimosa_Visualizer.cpp" />
+    <ClCompile Include="..\Private\Mirror_Ball.cpp" />
+    <ClCompile Include="..\Private\Mimosa_SpotLight.cpp" />
+    <ClCompile Include="..\Private\Misc_Tower_Elec.cpp" />
+    <ClCompile Include="..\Private\Monster_Mimosa.cpp" />
+    <ClCompile Include="..\Private\Monster_SwordMachine.cpp" />
+    <ClCompile Include="..\Private\MovingFloor.cpp" />
+    <ClCompile Include="..\Private\Musician_Instrument.cpp" />
+    <ClCompile Include="..\Private\Musician_Robot.cpp" />
+    <ClCompile Include="..\Private\Particle_Fire.cpp" />
+    <ClCompile Include="..\Private\Particle_FireCracker_Normal.cpp" />
+    <ClCompile Include="..\Private\Particle_Fire_Loop.cpp" />
+    <ClCompile Include="..\Private\Particle_Mimosa_Panel.cpp" />
+    <ClCompile Include="..\Private\PeppermintContainer.cpp" />
+    <ClCompile Include="..\Private\Radial_Blur.cpp" />
+    <ClCompile Include="..\Private\Random_Laser.cpp" />
+    <ClCompile Include="..\Private\Rekka_Land_Spark.cpp" />
+    <ClCompile Include="..\Private\RhythmJump.cpp" />
+    <ClCompile Include="..\Private\SectionCullingBox.cpp" />
+    <ClCompile Include="..\Private\SpectraMeshGate.cpp" />
+    <ClCompile Include="..\Private\Spectra_Mark.cpp" />
+    <ClCompile Include="..\Private\SteelFrame_Platform.cpp" />
+    <ClCompile Include="..\Private\Sun_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\SwordMachine_Sword.cpp" />
+    <ClCompile Include="..\Private\TabletScreen.cpp" />
+    <ClCompile Include="..\Private\TalkTrigger.cpp" />
+    <ClCompile Include="..\Private\Tool_Cine_Camera.cpp" />
+    <ClCompile Include="..\Private\Tower_Elec.cpp" />
+    <ClCompile Include="..\Private\Tracking_Laser.cpp" />
+    <ClCompile Include="..\Private\TrulyInvisibleWall.cpp" />
+    <ClCompile Include="..\Private\UI_Event_Cut.cpp" />
+    <ClCompile Include="..\Private\Unlimited_Void_Effect.cpp" />
+    <ClCompile Include="..\Private\Enemy_Lift.cpp" />
+    <ClCompile Include="..\Private\EventTrigger.cpp" />
+    <ClCompile Include="..\Private\Decal_Special_Effect.cpp" />
+    <ClCompile Include="..\Private\FadeElevator.cpp" />
+    <ClCompile Include="..\Private\Fan_Blade.cpp" />
+    <ClCompile Include="..\Private\Fan_Platform.cpp" />
+    <ClCompile Include="..\Private\FirstBattleWall.cpp" />
+    <ClCompile Include="..\Private\FloorSign.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Gyaaang.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_HNGH.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Phaa.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_RaEx_A.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_RaEx_Ex.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_RaEx_R.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Rekka_Slam.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Shoom.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Shwaa.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Zing.cpp" />
+    <ClCompile Include="..\Private\GaraElevator.cpp" />
+    <ClCompile Include="..\Private\Generator.cpp" />
+    <ClCompile Include="..\Private\GimmickBase.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Down.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Intro.cpp" />
+    <ClCompile Include="..\Private\Hanging_Platform.cpp" />
+    <ClCompile Include="..\Private\CLevel_KorsicaTest.cpp" />
+    <ClCompile Include="..\Private\CMonster_Korsica.cpp" />
+    <ClCompile Include="..\Private\ComboSwitch.cpp" />
+    <ClCompile Include="..\Private\ComboSwitchButton.cpp" />
+    <ClCompile Include="..\Private\CommonSwitch.cpp" />
+    <ClCompile Include="..\Private\Brake_Part.cpp" />
+    <ClCompile Include="..\Private\ConvexLens_Effect.cpp" />
+    <ClCompile Include="..\Private\CombatManager.cpp" />
+    <ClCompile Include="..\Private\ConveyorBelt.cpp" />
+    <ClCompile Include="..\Private\CUi_2D.cpp" />
+    <ClCompile Include="..\Private\CUi_BeatJudge.cpp" />
+    <ClCompile Include="..\Private\CUi_BeatMarker.cpp" />
+    <ClCompile Include="..\Private\CUi_BeatMarkerSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_Chip.cpp" />
+    <ClCompile Include="..\Private\CUi_Canvas.cpp" />
+    <ClCompile Include="..\Private\CUi_ComboButton.cpp" />
+    <ClCompile Include="..\Private\CUi_ComboNum.cpp" />
+    <ClCompile Include="..\Private\CUi_ComboWordHits.cpp" />
+    <ClCompile Include="..\Private\Chai.cpp" />
+    <ClCompile Include="..\Private\BigSlash_Effect.cpp" />
+    <ClCompile Include="..\Private\CUi_CommandIcon.cpp" />
+    <ClCompile Include="..\Private\CUi_EnemySpecialAttack.cpp" />
+    <ClCompile Include="..\Private\CUi_EquipDefault.cpp" />
+    <ClCompile Include="..\Private\CUi_FightString.cpp" />
+    <ClCompile Include="..\Private\CUi_FinalResult.cpp" />
+    <ClCompile Include="..\Private\CUi_FinalResultSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_Font.cpp" />
+    <ClCompile Include="..\Private\CUi_GearSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_JudgeWord.cpp" />
+    <ClCompile Include="..\Private\CUi_KorsicaFace.cpp" />
+    <ClCompile Include="..\Private\CUi_KorsicaHpBar.cpp" />
+    <ClCompile Include="..\Private\CUi_KorsicaSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_LoadingSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_Mgr.cpp" />
+    <ClCompile Include="..\Private\CUi_PartIcon.cpp" />
+    <ClCompile Include="..\Private\CUi_PlayerBar.cpp" />
+    <ClCompile Include="..\Private\CUi_PlayerHp.cpp" />
+    <ClCompile Include="..\Private\CUi_PlayerReverb.cpp" />
+    <ClCompile Include="..\Private\CUi_RankSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_RekkaDeco.cpp" />
+    <ClCompile Include="..\Private\CUi_RekkaDecoEffect.cpp" />
+    <ClCompile Include="..\Private\CUi_RekkaHp.cpp" />
+    <ClCompile Include="..\Private\CUi_RekkaSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_ScoreSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_SkillCutScene.cpp" />
+    <ClCompile Include="..\Private\CUi_Sprite.cpp" />
+    <ClCompile Include="..\Private\CUi_StageCorus.cpp" />
+    <ClCompile Include="..\Private\CUi_StageResultSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_StageResult_Bonus.cpp" />
+    <ClCompile Include="..\Private\CUi_StageResult_FinalScore.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreEdge.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreEquipBar.cpp" />
+    <ClCompile Include="..\Private\Cyclone.cpp" />
+    <ClCompile Include="..\Private\CUi_TreasureBox.cpp" />
+    <ClCompile Include="..\Private\CUi_TreasureBoxSystem.cpp" />
+    <ClCompile Include="..\Private\Damage_Effect.cpp" />
+    <ClCompile Include="..\Private\Dash_Effect.cpp" />
+    <ClCompile Include="..\Private\Decal_Ring_Effect.cpp" />
+    <ClCompile Include="..\Private\Dot_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\EffectData.cpp" />
+    <ClCompile Include="..\Private\CUi_Store.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreAttack.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreBar.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreBuyBar.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreChip.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreChipDesc.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreChipEquip.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreItem.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreSkillEquip.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreSkill.cpp" />
+    <ClCompile Include="..\Private\CUi_TalkSystem.cpp" />
+    <ClCompile Include="..\Private\CUi_UpRightBack.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreDesc.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreEntry.cpp" />
+    <ClCompile Include="..\Private\CUi_StoreSystem.cpp" />
+    <ClCompile Include="..\Private\Decal_Effect.cpp" />
+    <ClCompile Include="..\Private\Effect_Base.cpp" />
+    <ClCompile Include="..\Private\Effect_Manager.cpp" />
+    <ClCompile Include="..\Private\Effect_Union.cpp" />
+    <ClCompile Include="..\Private\EnemyGate.cpp" />
+    <ClCompile Include="..\Private\GearWall.cpp" />
+    <ClCompile Include="..\Private\Glow_Slash_Effect.cpp" />
+    <ClCompile Include="..\Private\HammerOn_Effect.cpp" />
+    <ClCompile Include="..\Private\Hit_Base.cpp" />
+    <ClCompile Include="..\Private\Hit_Electro.cpp" />
+    <ClCompile Include="..\Private\Hit_Hard.cpp" />
+    <ClCompile Include="..\Private\Hit_Special.cpp" />
+    <ClCompile Include="..\Private\Impact_Shock_Bigger_Effect.cpp" />
+    <ClCompile Include="..\Private\InvisibleCylinderWall.cpp" />
+    <ClCompile Include="..\Private\InvisibleWall.cpp" />
+    <ClCompile Include="..\Private\JustMark_Effect.cpp" />
+    <ClCompile Include="..\Private\KrscRoomWall.cpp" />
+    <ClCompile Include="..\Private\LargeElevator.cpp" />
+    <ClCompile Include="..\Private\Laser_Warning_Effect.cpp" />
+    <ClCompile Include="..\Private\LevelUp_Machine.cpp" />
+    <ClCompile Include="..\Private\Lift_Speed_Effect.cpp" />
+    <ClCompile Include="..\Private\MapManager.cpp" />
+    <ClCompile Include="..\Private\Monster_Kale.cpp" />
+    <ClCompile Include="..\Private\Particle_Anime_Spark.cpp" />
+    <ClCompile Include="..\Private\Level_ModelTest.cpp" />
+    <ClCompile Include="..\Private\PepperMint_Effect_MF_1.cpp" />
+    <ClCompile Include="..\Private\PepperMint_Effect_MF_2.cpp" />
+    <ClCompile Include="..\Private\PickUpItem.cpp" />
+    <ClCompile Include="..\Private\QACenterDoor.cpp" />
+    <ClCompile Include="..\Private\RekkaRoomDoor.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Elect.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Event.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Gimmick.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Groggy.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Pase_2.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Pase_3.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Pase_4.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Pase_Dead.cpp" />
+    <ClCompile Include="..\Private\RekkaState_PipeAtt_Long.cpp" />
+    <ClCompile Include="..\Private\RekkaState_PipeAtt_Short.cpp" />
+    <ClCompile Include="..\Private\Rekka_Dash_Effect.cpp" />
+    <ClCompile Include="..\Private\Rekka_Elect_Wire.cpp" />
+    <ClCompile Include="..\Private\Rekka_Gauntlet.cpp" />
+    <ClCompile Include="..\Private\Rekka_GenCover.cpp" />
+    <ClCompile Include="..\Private\Rekka_Generator.cpp" />
+    <ClCompile Include="..\Private\Rekka_Logo.cpp" />
+    <ClCompile Include="..\Private\Rekka_MonitorBase.cpp" />
+    <ClCompile Include="..\Private\Rekka_Monitor_L.cpp" />
+    <ClCompile Include="..\Private\Rekka_Monitor_S.cpp" />
+    <ClCompile Include="..\Private\Rekka_PhaseText.cpp" />
+    <ClCompile Include="..\Private\RhythmWall.cpp" />
+    <ClCompile Include="..\Private\SaberState_Intro.cpp" />
+    <ClCompile Include="..\Private\SignBoard.cpp" />
+    <ClCompile Include="..\Private\Rekka_Pipe_Door.cpp" />
+    <ClCompile Include="..\Private\SignBoard_Platform.cpp" />
+    <ClCompile Include="..\Private\SignPlane.cpp" />
+    <ClCompile Include="..\Private\SkySphere.cpp" />
+    <ClCompile Include="..\Private\Slam_Effect.cpp" />
+    <ClCompile Include="..\Private\SmallElevator.cpp" />
+    <ClCompile Include="..\Private\EnemySlash_Effect.cpp" />
+    <ClCompile Include="..\Private\Explosion_Effect.cpp" />
+    <ClCompile Include="..\Private\Fire_Effect.cpp" />
+    <ClCompile Include="..\Private\Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\Flat_Wave_Effect.cpp" />
+    <ClCompile Include="..\Private\FloorSwitch.cpp" />
+    <ClCompile Include="..\Private\FloorSwitchButton.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Bam_A.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Bam_B.cpp" />
+    <ClCompile Include="..\Private\Font_Effect_Bam_M.cpp" />
+    <ClCompile Include="..\Private\Free_SK_Object.cpp" />
+    <ClCompile Include="..\Private\Free_SM_Object.cpp" />
+    <ClCompile Include="..\Private\GameManager.cpp" />
+    <ClCompile Include="..\Private\CUi.cpp" />
+    <ClCompile Include="..\Private\CUi_Default.cpp" />
+    <ClCompile Include="..\Private\GimmickManager.cpp" />
+    <ClCompile Include="..\Private\GlassWall.cpp" />
+    <ClCompile Include="..\Private\GridBox.cpp" />
+    <ClCompile Include="..\Private\GunnerState.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Attack.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Damaged.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Dead.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Idle.cpp" />
+    <ClCompile Include="..\Private\GunnerState_Move.cpp" />
+    <ClCompile Include="..\Private\Harmonic_Beam.cpp" />
+    <ClCompile Include="..\Private\Imgui_Manager.cpp" />
+    <ClCompile Include="..\Private\Impact_Ring_Effect.cpp" />
+    <ClCompile Include="..\Private\Impact_Shock_Effect.cpp" />
+    <ClCompile Include="..\Private\Impact_Smack_Shock_Effect.cpp" />
+    <ClCompile Include="..\Private\Impact_Spark_Effect.cpp" />
+    <ClCompile Include="..\Private\Korsica.cpp" />
+    <ClCompile Include="..\Private\LandImpact_Effect.cpp" />
+    <ClCompile Include="..\Private\LandJumpImpact_Effect.cpp" />
+    <ClCompile Include="..\Private\LaserBoard.cpp" />
+    <ClCompile Include="..\Private\LaserCircuit.cpp" />
+    <ClCompile Include="..\Private\LaserPillar.cpp" />
+    <ClCompile Include="..\Private\LaserPod.cpp" />
+    <ClCompile Include="..\Private\LaserReward.cpp" />
+    <ClCompile Include="..\Private\Level_AnimTool.cpp" />
+    <ClCompile Include="..\Private\Level_Effect.cpp" />
+    <ClCompile Include="..\Private\Level_Lift.cpp" />
+    <ClCompile Include="..\Private\Level_Loading.cpp" />
+    <ClCompile Include="..\Private\Level_Logo.cpp" />
+    <ClCompile Include="..\Private\Level_MapTool.cpp" />
+    <ClCompile Include="..\Private\Level_Test.cpp" />
+    <ClCompile Include="..\Private\Level_Ui.cpp" />
+    <ClCompile Include="..\Private\Lift.cpp" />
+    <ClCompile Include="..\Private\Light_Effect.cpp" />
+    <ClCompile Include="..\Private\Loader.cpp" />
+    <ClCompile Include="..\Private\MainApp.cpp" />
+    <ClCompile Include="..\Private\MapObject_Anim.cpp" />
+    <ClCompile Include="..\Private\MapObject_Static.cpp" />
+    <ClCompile Include="..\Private\Mesh_Shock_Effect.cpp" />
+    <ClCompile Include="..\Private\Macaron.cpp" />
+    <ClCompile Include="..\Private\MonsterBase.cpp" />
+    <ClCompile Include="..\Private\MonsterSpawner.cpp" />
+    <ClCompile Include="..\Private\Monster_Baboo.cpp" />
+    <ClCompile Include="..\Private\Monster_Gunner.cpp" />
+    <ClCompile Include="..\Private\Monster_Rekka.cpp" />
+    <ClCompile Include="..\Private\Monster_Saber.cpp" />
+    <ClCompile Include="..\Private\Monster_Samurai.cpp" />
+    <ClCompile Include="..\Private\MovingWall.cpp" />
+    <ClCompile Include="..\Private\Panel_Lift.cpp" />
+    <ClCompile Include="..\Private\Panel_Warning.cpp" />
+    <ClCompile Include="..\Private\Parry_Effect.cpp" />
+    <ClCompile Include="..\Private\PartDoor.cpp" />
+    <ClCompile Include="..\Private\PartDoorFrame.cpp" />
+    <ClCompile Include="..\Private\Particle_Effect.cpp" />
+    <ClCompile Include="..\Private\Particle_Spark.cpp" />
+    <ClCompile Include="..\Private\Peppermint.cpp" />
+    <ClCompile Include="..\Private\Button_Platform.cpp" />
+    <ClCompile Include="..\Private\PlatformSpawner.cpp" />
+    <ClCompile Include="..\Private\PlayerManager.cpp" />
+    <ClCompile Include="..\Private\Player_Camera.cpp" />
+    <ClCompile Include="..\Private\PodLaser.cpp" />
+    <ClCompile Include="..\Private\Procedural_Cyclone_Effect.cpp" />
+    <ClCompile Include="..\Private\ProdDeptDoor.cpp" />
+    <ClCompile Include="..\Private\RekkaState.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Attack.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Idle.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Intro.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Move.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Pipe.cpp" />
+    <ClCompile Include="..\Private\RekkaState_Rotate.cpp" />
+    <ClCompile Include="..\Private\Rekka_Long_Pipe.cpp" />
+    <ClCompile Include="..\Private\Rekka_Pipe_L.cpp" />
+    <ClCompile Include="..\Private\Rekka_Spark_Impact.cpp" />
+    <ClCompile Include="..\Private\Rekka_Spark_Lightning.cpp" />
+    <ClCompile Include="..\Private\Rekka_Pipe_R.cpp" />
+    <ClCompile Include="..\Private\ResourceWizard.cpp" />
+    <ClCompile Include="..\Private\ReverbGaugeRoom.cpp" />
+    <ClCompile Include="..\Private\Ring_Effect.cpp" />
+    <ClCompile Include="..\Private\SaberState.cpp" />
+    <ClCompile Include="..\Private\SaberState_Attack.cpp" />
+    <ClCompile Include="..\Private\SaberState_Damaged.cpp" />
+    <ClCompile Include="..\Private\SaberState_Dead.cpp" />
+    <ClCompile Include="..\Private\SaberState_Down.cpp" />
+    <ClCompile Include="..\Private\SaberState_Idle.cpp" />
+    <ClCompile Include="..\Private\SaberState_Move.cpp" />
+    <ClCompile Include="..\Private\Saber_Weapon.cpp" />
+    <ClCompile Include="..\Private\Schwing_Font.cpp" />
+    <ClCompile Include="..\Private\Shash_Font.cpp" />
+    <ClCompile Include="..\Private\Shock_Effect_Font_A.cpp" />
+    <ClCompile Include="..\Private\Shock_Effect_Font_D.cpp" />
+    <ClCompile Include="..\Private\SkyBox.cpp" />
+    <ClCompile Include="..\Private\Slate_Platform.cpp" />
+    <ClCompile Include="..\Private\Smack_Font_Effect.cpp" />
+    <ClCompile Include="..\Private\Smoke_Cover.cpp" />
+    <ClCompile Include="..\Private\Smoke_Effect.cpp" />
+    <ClCompile Include="..\Private\Smoke_Explode_Effect.cpp" />
+    <ClCompile Include="..\Private\Snap_Font_Effect.cpp" />
+    <ClCompile Include="..\Private\Snap_Impact_Effect.cpp" />
+    <ClCompile Include="..\Private\SpawnTrigger_Monster.cpp" />
+    <ClCompile Include="..\Private\SpawnTrigger_Platform.cpp" />
+    <ClCompile Include="..\Private\Special_Effect_PS_Spark.cpp" />
+    <ClCompile Include="..\Private\Square_Flare_Effect.cpp" />
+    <ClCompile Include="..\Private\StarSymbol_Effect.cpp" />
+    <ClCompile Include="..\Private\Swing_Effect.cpp" />
+    <ClCompile Include="..\Private\SwitchButton.cpp" />
+    <ClCompile Include="..\Private\SwitchFence.cpp" />
+    <ClCompile Include="..\Private\TestEffect.cpp" />
+    <ClCompile Include="..\Private\Texture_Effect.cpp" />
+    <ClCompile Include="..\Private\Tool_Camera.cpp" />
+    <ClCompile Include="..\Private\Trigger.cpp" />
+    <ClCompile Include="..\Private\TriggerBox_Level.cpp" />
+    <ClCompile Include="..\Private\Tunnel.cpp" />
+    <ClCompile Include="..\Private\UnionEffectData.cpp" />
+    <ClCompile Include="..\Private\Vergil.cpp" />
+    <ClCompile Include="..\Private\WarningDecalCircle_Effect.cpp" />
+    <ClCompile Include="..\Private\WarningDecal_Effect.cpp" />
+    <ClCompile Include="..\Private\WarningDecal_Narrowing_Effect.cpp" />
+    <ClCompile Include="..\Private\Wave_Effect.cpp" />
+    <ClCompile Include="..\Private\Weapon_Korsica.cpp" />
+    <ClCompile Include="..\Private\Weapon_Mimosa.cpp" />
+    <ClCompile Include="..\Private\Weapon_Peppermint.cpp" />
+    <ClCompile Include="..\Private\Wire.cpp" />
+    <ClCompile Include="..\Private\WireMagnet.cpp" />
+    <ClCompile Include="..\Private\WoodenBox.cpp" />
+    <ClCompile Include="..\Private\Zap_Effect.cpp" />
+    <ClCompile Include="..\Private\ZipLine_Magnet.cpp" />
+    <ClCompile Include="..\Private\ZipLine_Obstacle.cpp" />
+    <ClCompile Include="..\Private\ZipLine_Rail.cpp" />
+    <ClCompile Include="..\Private\ZipLine_RailPart.cpp" />
+    <ClCompile Include="Client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxEffect.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxEffectPosTex.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl" />
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxRectInstance.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

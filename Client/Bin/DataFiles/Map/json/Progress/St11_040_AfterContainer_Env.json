@@ -1,0 +1,1822 @@
+[
+  {
+    "Type": "Decal_DirtBaTint_Color01_BP_C",
+    "Name": "Decal_DirtBaTint_Color01_BP31_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBaTint_Color01_BP.Decal_DirtBaTint_Color01_BP_C'",
+    "Template": {
+      "ObjectName": "Decal_DirtBaTint_Color01_BP_C'Default__Decal_DirtBaTint_Color01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBaTint_Color01_BP.1"
+    },
+    "Properties": {
+      "Decal": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBaTint_Color01_BP31_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.4"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBaTint_Color01_BP31_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.4"
+      }
+    }
+  },
+  {
+    "Type": "Decal_DirtBbTint_Color01_BP_C",
+    "Name": "Decal_DirtBbTint_Color01_BP19_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBbTint_Color01_BP.Decal_DirtBbTint_Color01_BP_C'",
+    "Template": {
+      "ObjectName": "Decal_DirtBbTint_Color01_BP_C'Default__Decal_DirtBbTint_Color01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBbTint_Color01_BP.1"
+    },
+    "Properties": {
+      "Decal": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBbTint_Color01_BP19_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.5"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBbTint_Color01_BP19_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.5"
+      }
+    }
+  },
+  {
+    "Type": "Decal_ScratchJTint_Color01_BP_C",
+    "Name": "Decal_ScratchJTint_Color01_BP4_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchJTint_Color01_BP.Decal_ScratchJTint_Color01_BP_C'",
+    "Template": {
+      "ObjectName": "Decal_ScratchJTint_Color01_BP_C'Default__Decal_ScratchJTint_Color01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchJTint_Color01_BP.1"
+    },
+    "Properties": {
+      "Decal": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchJTint_Color01_BP4_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.6"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchJTint_Color01_BP4_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.6"
+      }
+    }
+  },
+  {
+    "Type": "Decal_ScratchMTint_Color01_BP_C",
+    "Name": "Decal_ScratchMTint_Color01_BP49_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchMTint_Color01_BP.Decal_ScratchMTint_Color01_BP_C'",
+    "Template": {
+      "ObjectName": "Decal_ScratchMTint_Color01_BP_C'Default__Decal_ScratchMTint_Color01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchMTint_Color01_BP.1"
+    },
+    "Properties": {
+      "Decal": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchMTint_Color01_BP49_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.7"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkDecalComponent'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchMTint_Color01_BP49_2.NewDecalComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.7"
+      }
+    }
+  },
+  {
+    "Type": "HbkDecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Decal_DirtBaTint_Color01_BP31_2",
+    "Class": "UScriptClass'HbkDecalComponent'",
+    "Template": {
+      "ObjectName": "HbkDecalComponent'Default__Decal_DirtBaTint_Color01_BP_C:NewDecalComponent'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBaTint_Color01_BP.2"
+    },
+    "Properties": {
+      "bOverrideOpacity": true,
+      "Opacity": 0.390476,
+      "DefaultMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Decal_DirtBaTint_Color01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/MI_Decal_DirtBaTint_Color01.0"
+      },
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceDynamic'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBaTint_Color01_BP31_2.NewDecalComponent.MaterialInstanceDynamic_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.47"
+      },
+      "RelativeLocation": {
+        "X": -5518.8076,
+        "Y": -15403.835,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 2520.0,
+        "Roll": 523.3096
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "HbkDecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Decal_DirtBbTint_Color01_BP19_2",
+    "Class": "UScriptClass'HbkDecalComponent'",
+    "Template": {
+      "ObjectName": "HbkDecalComponent'Default__Decal_DirtBbTint_Color01_BP_C:NewDecalComponent'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/Decal_DirtBbTint_Color01_BP.2"
+    },
+    "Properties": {
+      "bOverrideOpacity": true,
+      "Opacity": 0.542857,
+      "DefaultMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Decal_DirtBbTint_Color01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/MI_Decal_DirtBbTint_Color01.0"
+      },
+      "DecalMaterial": {
+        "ObjectName": "MaterialInstanceDynamic'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBbTint_Color01_BP19_2.NewDecalComponent.MaterialInstanceDynamic_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.48"
+      },
+      "RelativeLocation": {
+        "X": -4684.728,
+        "Y": -15685.235,
+        "Z": 6701.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -1.5258789E-05,
+        "Roll": 378.49103
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "HbkDecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Decal_ScratchJTint_Color01_BP4_2",
+    "Class": "UScriptClass'HbkDecalComponent'",
+    "Template": {
+      "ObjectName": "HbkDecalComponent'Default__Decal_ScratchJTint_Color01_BP_C:NewDecalComponent'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchJTint_Color01_BP.2"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5445.0,
+        "Y": -15944.0,
+        "Z": 6700.0
+      }
+    }
+  },
+  {
+    "Type": "HbkDecalComponent",
+    "Name": "NewDecalComponent",
+    "Outer": "Decal_ScratchMTint_Color01_BP49_2",
+    "Class": "UScriptClass'HbkDecalComponent'",
+    "Template": {
+      "ObjectName": "HbkDecalComponent'Default__Decal_ScratchMTint_Color01_BP_C:NewDecalComponent'",
+      "ObjectPath": "/Game/Hibiki/Environment/Decal/Scratch/Decal_ScratchMTint_Color01_BP.2"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5041.0,
+        "Y": -15499.0,
+        "Z": 6700.0
+      }
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.2"
+    },
+    "Properties": {
+      "RoleTags": [
+        "Stage.Stage11.080.Object_Hide02"
+      ]
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_CraneA_MW_01_BP_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.2"
+    },
+    "Properties": {
+      "RoleTags": [
+        "Stage.Stage11.080.Object_Hide01"
+      ]
+    }
+  },
+  {
+    "Type": "HbkGimmickAnimationComponent",
+    "Name": "HbkGimmickAnimation",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkGimmickAnimationComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickAnimationComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:HbkGimmickAnimation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.3"
+    },
+    "Properties": {
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.4"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_CraneA_MW_01_BP_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_ContainerClashSet_After_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_After_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.38"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_After_IZ_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_Before_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.39"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_Before_IZ_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.4"
+    },
+    "Properties": {
+      "CollisionProfileNameMap": [
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+          "Value": "BlockAllDynamic"
+        },
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_SpectraConstr_CraneA_Crash_MW_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkGimmickVisibilityComponent",
+    "Name": "HbkGimmickVisibility",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'HbkGimmickVisibilityComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVisibilityComponent'SM_SpectraConstr_CraneA_MW_01_BP_C:HbkGimmickVisibility_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.4"
+    },
+    "Properties": {
+      "Params": [
+        {
+          "MeshName": "SM_SpectraConstr_CraneA_MW_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_SpectraConstr_CraneA_MW_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.42"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        },
+        {
+          "MeshName": "SM_TPAreaCraneExtensionPole_IZ_01",
+          "MeshComp": {
+            "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+            "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.43"
+          },
+          "DefaultParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateParam": {
+            "bHiddenInGame": true,
+            "bVisibility": false
+          },
+          "DeactivateParam": {
+            "bHiddenInGame": false,
+            "bVisibility": false
+          },
+          "ActivateExtIntParams": [],
+          "DeactivateExtIntParams": []
+        }
+      ],
+      "CollisionProfileNameMap": [
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+          "Value": "BlockAllDynamic"
+        },
+        {
+          "Key": "0",
+          "Value": "NoCollision"
+        },
+        {
+          "Key": "HbkStaticMeshComponent'/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_SpectraConstr_CraneA_MW_01'",
+          "Value": "BlockAllDynamic"
+        }
+      ],
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_Base_HandrailCa_IZ_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.29"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.29"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_Base_HandrailCa_IZ_11",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.30"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_11.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.30"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_Base_HandrailCa_IZ_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.31"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.31"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_BaseAaHandrail_Aa_IZ_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAaHandrail_Aa_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.37"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAaHandrail_Aa_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.37"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_13",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.44"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_13.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.44"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_14",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.45"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_14.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.45"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_Base_HandrailCa_IZ_10",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_Base_HandrailCa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_Base_HandrailCa_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": -5250.0,
+        "Y": -15200.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_Base_HandrailCa_IZ_11",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_Base_HandrailCa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_Base_HandrailCa_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": -4950.0,
+        "Y": -15200.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_Base_HandrailCa_IZ_12",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_Base_HandrailCa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_Base_HandrailCa_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": -5600.0,
+        "Y": -15560.0,
+        "Z": 6700.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "HbkStaticMesh",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:HbkStaticMesh_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PoleLightA_TS_01_00",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:SM_PoleLightA_TS_01_00_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.6"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "RelativeLocation": {
+        "X": -465.0,
+        "Y": -464.99997,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PoleLightA_TS_01_01",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:SM_PoleLightA_TS_01_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.7"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "RelativeLocation": {
+        "X": 30.0,
+        "Y": -479.99994,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PoleLightA_TS_01_02",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:SM_PoleLightA_TS_01_02_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.8"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "RelativeLocation": {
+        "X": 479.99994,
+        "Y": -50.0,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_PoleLightA_TS_01_03",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:SM_PoleLightA_TS_01_03_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.9"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "RelativeLocation": {
+        "X": -474.9999,
+        "Y": 474.99997,
+        "Z": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_BaseAaHandrail_Aa_IZ_8",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_Base_HandrailAa_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_Base_HandrailAa_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": -5600.0,
+        "Y": -15200.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_ContainerClashSet_After_IZ_01",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C:SM_SpectraConstr_ContainerClashSet_After_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.52"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C:SM_SpectraConstr_ContainerClashSet_Before_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.53"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_Crash_MW_01",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:SM_SpectraConstr_CraneA_Crash_MW_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_TPAreaCraneExtensionPole_IZ_01",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:SM_TPAreaCraneExtensionPole_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.6"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.54"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_MW_01",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_MW_01_BP_C:SM_SpectraConstr_CraneA_MW_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.5"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_TPAreaCraneExtensionPole_IZ_01",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_MW_01_BP_C:SM_TPAreaCraneExtensionPole_IZ_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.6"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.55"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_13",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": -4600.0,
+        "Y": -16190.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99997,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_14",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "RelativeLocation": {
+        "X": -5130.0,
+        "Y": -16200.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.000015,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St11_040_AfterContainer_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St11_040_AfterContainer_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.49"
+      },
+      "LevelBuildDataId": "F7C61E31-440D10E8-D69B1B85-7C80E9B9",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St11_040_AfterContainer_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.62"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St11_040_AfterContainer_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.62"
+      },
+      null,
+      {
+        "ObjectName": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.59"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_CraneA_MW_01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.60"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAaHandrail_Aa_IZ_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.26"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.23"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_11'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.24"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_13'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.27"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ScaffoldWireMesh_Ab_IZ_14'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.28"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.58"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.57"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_Base_HandrailCa_IZ_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.25"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.56"
+      },
+      {
+        "ObjectName": "Decal_DirtBaTint_Color01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBaTint_Color01_BP31_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.0"
+      },
+      {
+        "ObjectName": "Decal_DirtBbTint_Color01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.Decal_DirtBbTint_Color01_BP19_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.1"
+      },
+      {
+        "ObjectName": "Decal_ScratchJTint_Color01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchJTint_Color01_BP4_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.2"
+      },
+      {
+        "ObjectName": "Decal_ScratchMTint_Color01_BP_C'St11_040_AfterContainer_Env:PersistentLevel.Decal_ScratchMTint_Color01_BP49_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Maps/Title/Title_All",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St11_040_AfterContainer_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.49"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "NewDecalComponent",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Decal_DirtBaTint_Color01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/MI_Decal_DirtBaTint_Color01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.390476,
+          "ExpressionGUID": "86D26E56-47A24CEB-468C72AA-E76B5C3B"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColorTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "AA495B92-48E6992E-2C0BFA86-BA4799EF"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_White_MM'",
+          "ObjectPath": "/Game/Hibiki/Textures/Generic/Generic/T_White_MM.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialInstanceDynamic",
+    "Name": "MaterialInstanceDynamic_0",
+    "Outer": "NewDecalComponent",
+    "Class": "UScriptClass'MaterialInstanceDynamic'",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Decal_DirtBbTint_Color01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Decal/Dirt/MI_Decal_DirtBbTint_Color01.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Opacity",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.542857,
+          "ExpressionGUID": "86D26E56-47A24CEB-468C72AA-E76B5C3B"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColorTint",
+            "Association": "GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "AA495B92-48E6992E-2C0BFA86-BA4799EF"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        {
+          "ObjectName": "Texture2D'T_White_MM'",
+          "ObjectPath": "/Game/Hibiki/Textures/Generic/Generic/T_White_MM.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "E0A1F8AB-43CD1F3A-A6B4C2BD-C3312B16",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.10"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -5100.0,
+        "Y": -15700.0,
+        "Z": 6700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1700.0,
+        "Y": -11800.0,
+        "Z": 3700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99996,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.6"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1700.0,
+        "Y": -11800.0,
+        "Z": 3700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.999985,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_CraneA_Crash_MW_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.7"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1700.0,
+        "Y": -11500.0,
+        "Z": 8500.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_CraneA_MW_01_BP_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.7"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -1700.0,
+        "Y": -11500.0,
+        "Z": 8500.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C",
+    "Name": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP7",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C'Default__SM_SpectraConstr_BaseAa_PoleLightSetA_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionBLDG/SM_SpectraConstr_Base_IZ/SM_SpectraConstr_BaseAa_PoleLightSetA_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickAnimation": {
+        "ObjectName": "HbkGimmickAnimationComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.HbkGimmickAnimation'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.13"
+      },
+      "SM_PoleLightA_TS_01_03": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_03'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.36"
+      },
+      "SM_PoleLightA_TS_01_02": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_02'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.35"
+      },
+      "SM_PoleLightA_TS_01_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.34"
+      },
+      "SM_PoleLightA_TS_01_00": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_00'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.33"
+      },
+      "HbkStaticMesh": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.HbkStaticMesh'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.32"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.14"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.8"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.51"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.HbkStaticMesh'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.32"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_00'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.33"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.34"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_02'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.35"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.SM_PoleLightA_TS_01_03'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.36"
+        },
+        {
+          "ObjectName": "HbkGimmickAnimationComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_BaseAa_PoleLightSetA_BP7.HbkGimmickAnimation'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C'Default__SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.19"
+      },
+      "SM_SpectraConstr_ContainerClashSet_After_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_After_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.38"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.52"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.15"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.9"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.52"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.52"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_After_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.38"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_After_IZ_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C",
+    "Name": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C'Default__SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Scaffold_IZ/SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.20"
+      },
+      "SM_SpectraConstr_ContainerClashSet_Before_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_Before_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.39"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.53"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.16"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.10"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.53"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.53"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.SM_SpectraConstr_ContainerClashSet_Before_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.39"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_ContainerClashSet_Before_IZ_01_BP.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_C",
+    "Name": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.SM_SpectraConstr_CraneA_Crash_MW_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_CraneA_Crash_MW_01_BP_C'Default__SM_SpectraConstr_CraneA_Crash_MW_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_Crash_MW_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.21"
+      },
+      "SM_TPAreaCraneExtensionPole_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.41"
+      },
+      "SM_SpectraConstr_CraneA_Crash_MW_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_SpectraConstr_CraneA_Crash_MW_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.40"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.54"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.17"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.11"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.54"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.54"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_SpectraConstr_CraneA_Crash_MW_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.40"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.41"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_Crash_MW_01_BP_2.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_CraneA_MW_01_BP_C",
+    "Name": "SM_SpectraConstr_CraneA_MW_01_BP_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.SM_SpectraConstr_CraneA_MW_01_BP_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_CraneA_MW_01_BP_C'Default__SM_SpectraConstr_CraneA_MW_01_BP_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_MW/SM_SpectraConstr_CraneA_MW_01_BP.1"
+    },
+    "Properties": {
+      "HbkGimmickVisibility": {
+        "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.HbkGimmickVisibility'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.22"
+      },
+      "SM_TPAreaCraneExtensionPole_IZ_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.43"
+      },
+      "SM_SpectraConstr_CraneA_MW_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_SpectraConstr_CraneA_MW_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.42"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.55"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.18"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.12"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.55"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.55"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_SpectraConstr_CraneA_MW_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.42"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.SM_TPAreaCraneExtensionPole_IZ_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.43"
+        },
+        {
+          "ObjectName": "HbkGimmickVisibilityComponent'St11_040_AfterContainer_Env:PersistentLevel.SM_SpectraConstr_CraneA_MW_01_BP_2.HbkGimmickVisibility'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St11_040_AfterContainer_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St11_040_AfterContainer_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.46"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St11_040_AfterContainer_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_040_AfterContainer/ENV/St11_040_AfterContainer_Env.50"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

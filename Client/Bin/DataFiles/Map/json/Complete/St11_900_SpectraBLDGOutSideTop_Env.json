@@ -1,0 +1,668 @@
+[
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.2"
+    }
+  },
+  {
+    "Type": "HbkGameAgentComponent",
+    "Name": "GameAgentComponent",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkGameAgentComponent'",
+    "Template": {
+      "ObjectName": "HbkGameAgentComponent'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:GameAgentComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.2"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.3"
+    }
+  },
+  {
+    "Type": "HbkGimmickVfxComponent",
+    "Name": "VFXComponent",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkGimmickVfxComponent'",
+    "Template": {
+      "ObjectName": "HbkGimmickVfxComponent'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:VFXComponent'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.3"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_SpectraBLDGOutSideA_MW_01_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraBLDGOutSideA_MW_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.5"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraBLDGOutSideA_MW_01_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.5"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SpectraBLDGOutSideA_MW_01_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SpectraBLDGOutSideA_MW_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/Spectra/SpectraBLDG/SM_SpectraBLDGOutSide_MW/SM_SpectraBLDGOutSideA_MW_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -47385.0,
+        "Z": 5500.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_BattleAreaE_CraneA_ArmA_WB_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_BattleAreaE_CraneA_ArmA_WB_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.4"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.7"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_AG_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_CraneA_AG_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.5"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.17"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_SeparateWire_MW_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_CraneA_SeparateWire_MW_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.6"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.7"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_IronFrameB_AG_03",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_IronFrameB_AG_03_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.7"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.17"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_BattleAreaE_CraneA_ArmA_WB_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_BattleAreaE_CraneA_ArmA_WB_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.4"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_AG_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_CraneA_AG_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.5"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.18"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_CraneA_SeparateWire_MW_01",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_CraneA_SeparateWire_MW_01_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.6"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.11"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "SM_SpectraConstr_IronFrameB_AG_03",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Template": {
+      "ObjectName": "HbkStaticMeshComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:SM_SpectraConstr_IronFrameB_AG_03_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.7"
+    },
+    "Properties": {
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "bInterpolateWhenSubStepping": false,
+        "MaxAngularVelocity": 3599.9998
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.18"
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript"
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St11_900_SpectraBLDGOutSideTop_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.15"
+      },
+      "LevelBuildDataId": "845267B8-49DF0F00-D0BE9188-A52710C1",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.22"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.22"
+      },
+      null,
+      {
+        "ObjectName": "HbkStaticMeshActor'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraBLDGOutSideA_MW_01_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.4"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.20"
+      },
+      {
+        "ObjectName": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.19"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Maps/Title/Title_All",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.15"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "DC46F733-47CFCC54-173DF1BE-FCBFC074",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.8"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -10440.0,
+        "Y": -51955.0,
+        "Z": 18645.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 130.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Outer": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.8"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 11587.0,
+        "Y": -52102.0,
+        "Z": 17653.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -115.0,
+        "Roll": 0.0
+      },
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true,
+      "CreationMethod": "EComponentCreationMethod::SimpleConstructionScript",
+      "UCSModifiedProperties": [
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeLocation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "MemberParent": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "MemberName": "RelativeRotation",
+          "MemberGuid": "00000000-00000000-00000000-00000000"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C",
+    "Name": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol10",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.1"
+    },
+    "Properties": {
+      "SM_SpectraConstr_CraneA_SeparateWire_MW_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_SeparateWire_MW_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.8"
+      },
+      "SM_BattleAreaE_CraneA_ArmA_WB_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_BattleAreaE_CraneA_ArmA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.6"
+      },
+      "SM_SpectraConstr_IronFrameB_AG_03": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_IronFrameB_AG_03'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.9"
+      },
+      "SM_SpectraConstr_CraneA_AG_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.7"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.17"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.2"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.17"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.17"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.7"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_BattleAreaE_CraneA_ArmA_WB_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.6"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_CraneA_SeparateWire_MW_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.8"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol10.SM_SpectraConstr_IronFrameB_AG_03'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C",
+    "Name": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'",
+    "Template": {
+      "ObjectName": "SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'Default__SM_SpectraConstr_CraneA_AG_01_BP_NoCol_C'",
+      "ObjectPath": "/Game/Hibiki/Blueprints/Environment/Architecture/Spectra/ConstructionProps/SM_SpectraConstr_Crane_AG/SM_SpectraConstr_CraneA_AG_01_BP_NoCol.1"
+    },
+    "Properties": {
+      "SM_SpectraConstr_CraneA_SeparateWire_MW_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_SeparateWire_MW_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.12"
+      },
+      "SM_BattleAreaE_CraneA_ArmA_WB_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_BattleAreaE_CraneA_ArmA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.10"
+      },
+      "SM_SpectraConstr_IronFrameB_AG_03": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_IronFrameB_AG_03'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.13"
+      },
+      "SM_SpectraConstr_CraneA_AG_01": {
+        "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_AG_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.11"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.18"
+      },
+      "VFXComp": {
+        "ObjectName": "HbkGimmickVfxComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.VFXComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.3"
+      },
+      "GameAgentComp": {
+        "ObjectName": "HbkGameAgentComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.GameAgentComponent'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.1"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.DefaultSceneRoot'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.18"
+      },
+      "BlueprintCreatedComponents": [
+        {
+          "ObjectName": "SceneComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.DefaultSceneRoot'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.18"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_AG_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.11"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_BattleAreaE_CraneA_ArmA_WB_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.10"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_CraneA_SeparateWire_MW_01'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.12"
+        },
+        {
+          "ObjectName": "HbkStaticMeshComponent'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.SM_SpectraConstr_CraneA_AG_01_BP_NoCol9_2.SM_SpectraConstr_IronFrameB_AG_03'",
+          "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St11_900_SpectraBLDGOutSideTop_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.14"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St11_900_SpectraBLDGOutSideTop_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St11/St11_900_SpectraBLDGOutSide/ENV/St11_900_SpectraBLDGOutSideTop_Env.16"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

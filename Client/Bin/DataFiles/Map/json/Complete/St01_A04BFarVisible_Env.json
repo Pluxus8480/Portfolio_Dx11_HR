@@ -1,0 +1,3706 @@
+[
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_AntennaD_IZ_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_AntennaD_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.5"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_AntennaD_IZ_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.5"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_BLDGN_WB_16",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGN_WB_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.6"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGN_WB_16.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.6"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_BLDGQ_WB_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGQ_WB_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.7"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGQ_WB_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.7"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_MiddleBLDGA_TS_8",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddleBLDGA_TS_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.8"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddleBLDGA_TS_8.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.8"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshActor",
+    "Name": "SM_TankB_IZ_01_50",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'HbkStaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankB_IZ_01_50.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.9"
+      },
+      "RootComponent": {
+        "ObjectName": "HbkStaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankB_IZ_01_50.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.9"
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_AntennaD_IZ_8",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_AntennaD_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Antenna_IZ/SM_AntennaD_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 19871.35,
+        "Y": -75358.92,
+        "Z": 5753.75
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_BLDGN_WB_16",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BLDGN_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/BLDGNear/SM_BLDGN_WB/SM_BLDGN_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 17117.04,
+        "Y": -78490.625,
+        "Z": 3671.8684
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 210.00008,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_BLDGQ_WB_4",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BLDGQ_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/BLDGNear/SM_BLDGQ_WB/SM_BLDGQ_WB_01.2"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 13308.533,
+        "Y": -92342.36,
+        "Z": 1733.5369
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddleBLDGA_TS_8",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddleBLDGA_TS_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddleBLDG_IZ/SM_MiddleBLDGA_TS_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 27500.0,
+        "Y": -73100.0,
+        "Z": -2700.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -140.00006,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "HbkStaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TankB_IZ_01_50",
+    "Class": "UScriptClass'HbkStaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TankB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_TankB_IZ/SM_TankB_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 17190.969,
+        "Y": -77552.47,
+        "Z": 3666.8684
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.000114,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St01_A04BFarVisible_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St01_A04BFarVisible_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.11"
+      },
+      "LevelBuildDataId": "07407072-4AD2AD4D-E14B1086-B5425552",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St01_A04BFarVisible_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.128"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St01_A04BFarVisible_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.128"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.49"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.51"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.52"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_5'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.53"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_6'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.54"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_7'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.55"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_10'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.50"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_01_12'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.56"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.57"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.58"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.59"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.60"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_3'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.61"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_36'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_38'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_37'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_39'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_40'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.Building19_86'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_01_48'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.66"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_02_53'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.67"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_03_55'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.68"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_04_57'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.69"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.63"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.64"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_02_103'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.62"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaEffluentA_IZ_01_45'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.65"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_SignsMeshPlane_IZ_92'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.46"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_35'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_58'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_36'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_59'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_37'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.33"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_60'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_38'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.34"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_61'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_39'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.35"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_62'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_40'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.36"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_63'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_41'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.37"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_64'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_42'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.38"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_65'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_44'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.40"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_66'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_46'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.42"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_67'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_43'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.39"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGN_WB_16'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.1"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_BLDGQ_WB_4'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.2"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TankStandA_IZ_20'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.48"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TankA_IZ_24'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.47"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_47'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.43"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_68'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.29"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_TankB_IZ_01_50'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.4"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_AntennaD_IZ_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.0"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_45'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.41"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_48'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.44"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_69'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_49'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.45"
+      },
+      {
+        "ObjectName": "HbkStaticMeshActor'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddleBLDGA_TS_8'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.3"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Levels/Title_Debug",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St01_A04BFarVisible_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.11"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": null,
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "99DF3515-49301A11-75329090-10C90AFD",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "Building19_86",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.Building19_86.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.70"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.Building19_86.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Duct_WB_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.71"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.71"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Duct_WB_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.72"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.72"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Duct_WB_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.73"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.73"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Duct_WB_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.74"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.74"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_Duct_WB_40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.75"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_Duct_WB_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.75"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_58",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_58.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.76"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_58.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.76"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_59",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_59.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.77"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_59.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.77"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_60",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_60.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.78"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_60.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.78"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_61",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_61.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.79"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_61.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.79"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_62",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_62.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.80"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_62.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.80"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_63",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_63.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.81"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_63.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.81"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_64",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_64.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.82"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_64.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.82"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_65",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_65.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.83"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_65.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.83"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_66",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_66.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.84"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_66.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.84"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_67",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_67.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.85"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_67.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.85"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_68",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_68.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.86"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_68.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.86"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipes80m_IZ_69",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_69.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.87"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipes80m_IZ_69.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.87"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_35.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.88"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_35.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.88"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.89"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.89"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.90"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.90"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.91"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.91"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.92"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.92"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.93"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.93"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_41.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.94"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_41.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.94"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_42",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_42.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.95"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_42.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.95"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_43.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.96"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_43.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.96"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_44.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.97"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_44.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.97"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_45.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.98"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_45.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.98"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_46",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_46.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.99"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_46.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.99"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_47",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_47.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.100"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_47.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.100"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.101"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.101"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_MiddlePipesJointB_IZ_49",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_49.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.102"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_MiddlePipesJointB_IZ_49.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.102"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_SignsMeshPlane_IZ_92",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_SignsMeshPlane_IZ_92.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.103"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_SignsMeshPlane_IZ_92.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.103"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TankA_IZ_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankA_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.104"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankA_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.104"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TankStandA_IZ_20",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankStandA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.105"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TankStandA_IZ_20.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.105"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.106"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.106"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_10",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.107"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_10.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.107"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.108"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.108"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.109"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.109"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_5",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.110"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_5.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.110"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_6",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.111"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_6.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.111"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameA_IZ_7",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.112"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameA_IZ_7.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.112"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameB_IZ_01_12",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_01_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.113"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_01_12.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameB_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.114"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.114"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameB_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.115"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameB_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.115"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameC_IZ_01",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.116"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_01.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.116"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameC_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.117"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.117"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaBigFrameC_IZ_3",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.118"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaBigFrameC_IZ_3.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.118"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaCrane_IZ_02_103",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_02_103.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.119"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_02_103.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.119"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaCrane_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.120"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaCrane_IZ_4",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.121"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaCrane_IZ_4.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.121"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaEffluentA_IZ_01_45",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaEffluentA_IZ_01_45.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.122"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaEffluentA_IZ_01_45.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.122"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaGroundA_IZ_01_48",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_01_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.123"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_01_48.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.123"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaGroundA_IZ_02_53",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_02_53.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.124"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_02_53.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.124"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaGroundA_IZ_03_55",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_03_55.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.125"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_03_55.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.125"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_TPAreaGroundA_IZ_04_57",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_04_57.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.126"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_A04BFarVisible_Env:PersistentLevel.SM_TPAreaGroundA_IZ_04_57.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.126"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "Building19_86",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BLDGM_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/BLDGNear/SM_BLDGM_WB/SM_BLDGM_WB_01.2"
+      },
+      "RelativeLocation": {
+        "X": 5418.5005,
+        "Y": -75248.19,
+        "Z": 2894.0078
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Duct_WB_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DuctB_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Duct_WB/SM_DuctB_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2922.3555,
+        "Y": -74636.57,
+        "Z": 4393.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -189.99992,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Duct_WB_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DuctA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Duct_WB/SM_DuctA_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5670.5713,
+        "Y": -74927.53,
+        "Z": 5144.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99997,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Duct_WB_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DuctB_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Duct_WB/SM_DuctB_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2922.3555,
+        "Y": -73776.57,
+        "Z": 4393.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -189.99992,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.75,
+        "Y": 0.75,
+        "Z": 0.75
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Duct_WB_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DuctA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Duct_WB/SM_DuctA_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 6587.5713,
+        "Y": -74927.53,
+        "Z": 5144.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99997,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_Duct_WB_40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DuctA_WB_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_Duct_WB/SM_DuctA_WB_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12000.571,
+        "Y": -74927.53,
+        "Z": 5144.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99997,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_58",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12793.814,
+        "Y": -95128.12,
+        "Z": 4094.9578
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 180.0,
+        "Roll": -90.00003
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_59",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12793.83,
+        "Y": -86469.72,
+        "Z": 2862.5315
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 26.565033,
+        "Roll": 116.565
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_60",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 17518.56,
+        "Y": -78991.16,
+        "Z": 2132.0842
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 5.000038
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_61",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 18300.494,
+        "Y": -73916.2,
+        "Z": 2862.5347
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -165.96373,
+        "Roll": 159.03526
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_62",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 18750.867,
+        "Y": -74559.39,
+        "Z": 2862.5352
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -165.96373,
+        "Roll": 159.03526
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_63",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 19194.328,
+        "Y": -75192.76,
+        "Z": 2862.5356
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -165.96373,
+        "Roll": 159.03526
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_64",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12879.067,
+        "Y": -80008.77,
+        "Z": 3296.2063
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 360.0,
+        "Roll": 269.9995
+      },
+      "RelativeScale3D": {
+        "X": 0.603797,
+        "Y": 0.603797,
+        "Z": 0.603797
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_65",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15019.123,
+        "Y": -99429.8,
+        "Z": 5723.912
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -165.96373,
+        "Roll": -25.964752
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_66",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -191.07095,
+        "Y": -99974.516,
+        "Z": 4260.3374
+      },
+      "RelativeRotation": {
+        "Pitch": 0.000171,
+        "Yaw": -310.0003,
+        "Roll": -3.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_67",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2423.233,
+        "Y": -99828.34,
+        "Z": 5362.278
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": -684.9987
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.336877
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_68",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9619.432,
+        "Y": -79616.07,
+        "Z": 3595.0376
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 360.0,
+        "Roll": 269.9995
+      },
+      "RelativeScale3D": {
+        "X": 0.591471,
+        "Y": 0.591471,
+        "Z": 0.591471
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipes80m_IZ_69",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipes80m_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipes80m_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15590.704,
+        "Y": -74780.77,
+        "Z": 3628.0088
+      },
+      "RelativeRotation": {
+        "Pitch": -0.000304,
+        "Yaw": 120.000916,
+        "Roll": 0.000501
+      },
+      "RelativeScale3D": {
+        "X": 0.41564,
+        "Y": 0.41564,
+        "Z": 0.41564
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12792.268,
+        "Y": -95031.445,
+        "Z": 4095.6296
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99997,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12792.283,
+        "Y": -86373.05,
+        "Z": 2863.2034
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -269.99997,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 17422.12,
+        "Y": -78984.266,
+        "Z": 2132.756
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -184.99997,
+        "Roll": 9E-06
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 18222.193,
+        "Y": -73972.914,
+        "Z": 2863.2065
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7E-05,
+        "Yaw": -144.99982,
+        "Roll": -1.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 18672.564,
+        "Y": -74616.12,
+        "Z": 2863.207
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7E-05,
+        "Yaw": -144.99982,
+        "Roll": -1.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 19116.027,
+        "Y": -75249.48,
+        "Z": 2863.2075
+      },
+      "RelativeRotation": {
+        "Pitch": 2.7E-05,
+        "Yaw": -144.99982,
+        "Roll": -1.2E-05
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12880.0205,
+        "Y": -80067.13,
+        "Z": 3296.6301
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": -89.99955,
+        "Roll": 4.5E-05
+      },
+      "RelativeScale3D": {
+        "X": 0.603797,
+        "Y": 0.603797,
+        "Z": 0.603797
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_42",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15092.186,
+        "Y": -99366.46,
+        "Z": 5724.583
+      },
+      "RelativeRotation": {
+        "Pitch": -4.2E-05,
+        "Yaw": -320.00043,
+        "Roll": -0.003761
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15091.871,
+        "Y": -99366.086,
+        "Z": 328.06097
+      },
+      "RelativeRotation": {
+        "Pitch": 3.4E-05,
+        "Yaw": -320.00095,
+        "Roll": 179.9964
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -189.44748,
+        "Y": -99975.0,
+        "Z": 4357.014
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 14.036263,
+        "Roll": 144.03299
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12879.964,
+        "Y": -80067.13,
+        "Z": 39.4225
+      },
+      "RelativeRotation": {
+        "Pitch": 4.1E-05,
+        "Yaw": -89.99948,
+        "Roll": -179.99976
+      },
+      "RelativeScale3D": {
+        "X": 0.603797,
+        "Y": 0.603797,
+        "Z": 0.603797
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_46",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2503.324,
+        "Y": -99774.164,
+        "Z": 5362.9536
+      },
+      "RelativeRotation": {
+        "Pitch": -0.00032,
+        "Yaw": -214.99991,
+        "Roll": -0.003791
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_47",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9620.374,
+        "Y": -79673.234,
+        "Z": 3595.4717
+      },
+      "RelativeRotation": {
+        "Pitch": 7E-06,
+        "Yaw": -89.99955,
+        "Roll": 4.5E-05
+      },
+      "RelativeScale3D": {
+        "X": 0.591471,
+        "Y": 0.591471,
+        "Z": 0.591471
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15591.107,
+        "Y": -74780.17,
+        "Z": 3668.1638
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 59.997227
+      },
+      "RelativeScale3D": {
+        "X": 0.41564,
+        "Y": 0.41564,
+        "Z": 0.41564
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_MiddlePipesJointB_IZ_49",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MiddlePipesJointB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_MiddlePipes_IZ/SM_MiddlePipesJointB_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 16712.203,
+        "Y": -76722.02,
+        "Z": 3668.158
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": -120.00459
+      },
+      "RelativeScale3D": {
+        "X": 0.41564,
+        "Y": 0.41564,
+        "Z": 0.41564
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_SignsMeshPlane_IZ_92",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SignsMeshPlane_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Advertising/SM_SignsMesh_IZ/SM_SignsMeshPlane_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ProdDeptSignsAi_01'",
+          "ObjectPath": "/Game/Hibiki/Environment/Advertising/Signs_ProdDept/MI_ProdDeptSignsAi_01.0"
+        }
+      ],
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 4269.0,
+        "Y": -95364.0,
+        "Z": 4489.0
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": -1.2655102,
+        "Roll": 178.73483
+      },
+      "RelativeScale3D": {
+        "X": 0.077072,
+        "Y": 0.210454,
+        "Z": 0.106162
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TankA_IZ_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TankA_IZ_02'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_TankA_IZ/SM_TankA_IZ_02.2"
+      },
+      "bUseDefaultCollision": false,
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12666.191,
+        "Y": -93509.77,
+        "Z": 3752.644
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -10.000008,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TankStandA_IZ_20",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TankStandA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Industrial/SM_TankStandA_IZ/SM_TankStandA_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 12672.328,
+        "Y": -93510.77,
+        "Z": 3744.644
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_01",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 7168.4917,
+        "Y": -81236.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_10",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 4667.4985,
+        "Y": -97248.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 7168.4917,
+        "Y": -86736.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 7168.4985,
+        "Y": -77748.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_5",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 7168.4917,
+        "Y": -93236.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_6",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 4667.4985,
+        "Y": -93748.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameA_IZ_7",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 7168.4917,
+        "Y": -96737.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameB_IZ_01_12",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameB_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 15314.941,
+        "Y": -99942.48,
+        "Z": 2794.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -55.00005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameB_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameB_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 16818.492,
+        "Y": -103837.19,
+        "Z": 2794.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -75.00002,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameB_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameB_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameB_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -2910.6726,
+        "Y": -98861.49,
+        "Z": 2443.8457
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 59.215572,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameC_IZ_01",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameC_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameC_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 4668.4985,
+        "Y": -78248.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameC_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameC_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameC_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 4668.491,
+        "Y": -81748.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaBigFrameC_IZ_3",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaBigFrameC_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaBigFrameC_IZ_01.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 4668.491,
+        "Y": -87248.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.999985,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaCrane_IZ_02_103",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaCrane_IZ_02'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaCrane_IZ_02.2"
+      },
+      "RelativeLocation": {
+        "X": 3610.0,
+        "Y": -93500.0,
+        "Z": 5010.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaCrane_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaCrane_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaCrane_IZ_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8142.3125,
+        "Y": -87034.4,
+        "Z": 4870.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -185.00009,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaCrane_IZ_4",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaCrane_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaCrane_IZ_01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 8142.3125,
+        "Y": -78004.4,
+        "Z": 4870.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -675.0001,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaEffluentA_IZ_01_45",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaEffluentA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaEffluentA_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        null
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 1120.0005,
+        "Y": -86180.0,
+        "Z": 2230.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaGroundA_IZ_01_48",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaGroundA_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaGroundA_IZ_01.2"
+      },
+      "RelativeLocation": {
+        "X": 5918.4985,
+        "Y": -75248.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.00002,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaGroundA_IZ_02_53",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaGroundA_IZ_02'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaGroundA_IZ_02.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5918.4985,
+        "Y": -81748.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaGroundA_IZ_03_55",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaGroundA_IZ_03'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaGroundA_IZ_03.2"
+      },
+      "bUseDefaultCollision": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5918.4985,
+        "Y": -87248.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_TPAreaGroundA_IZ_04_57",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TPAreaGroundA_IZ_04'",
+        "ObjectPath": "/Game/Hibiki/Environment/Architecture/ProdDept/SM_TransportArea/SM_TPAreaGroundA_IZ_04.2"
+      },
+      "RelativeLocation": {
+        "X": 5918.4985,
+        "Y": -93748.19,
+        "Z": 2894.0078
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St01_A04BFarVisible_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St01_A04BFarVisible_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.10"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St01_A04BFarVisible_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Area04BFarVisible/ENV/St01_A04BFarVisible_Env.12"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

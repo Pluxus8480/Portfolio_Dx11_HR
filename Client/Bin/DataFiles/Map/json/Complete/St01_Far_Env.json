@@ -1,0 +1,2055 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "St01_Far_Env_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'LevelScriptActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "St01_Far_Env_C'Default__St01_Far_Env_C'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.1"
+    }
+  },
+  {
+    "Type": "St01_Far_Env_C",
+    "Name": "Default__St01_Far_Env_C",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.St01_Far_Env_C'"
+  },
+  {
+    "Type": "Level",
+    "Name": "PersistentLevel",
+    "Outer": "St01_Far_Env",
+    "Class": "UScriptClass'Level'",
+    "Properties": {
+      "Model": {
+        "ObjectName": "Model'St01_Far_Env:PersistentLevel.Model_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.3"
+      },
+      "LevelScriptActor": {
+        "ObjectName": "St01_Far_Env_C'St01_Far_Env:PersistentLevel.St01_Far_Env_C_1'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.5"
+      },
+      "LevelBuildDataId": "34924CE9-4C4B86AE-826029AA-3670D943",
+      "WorldSettings": {
+        "ObjectName": "WorldSettings'St01_Far_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.61"
+      }
+    },
+    "Actors": [
+      {
+        "ObjectName": "WorldSettings'St01_Far_Env:PersistentLevel.WorldSettings'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.61"
+      },
+      null,
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneMountain_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.30"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_2'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.8"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_00'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.6"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_A'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.31"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_B'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.32"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_23'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.9"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_24'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.10"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_25'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.11"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_26'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.12"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_27'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.13"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_28'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.14"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_29'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.15"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_30'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.16"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_31'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.17"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_32'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.18"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_33'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.19"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_34'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.20"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_35'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.21"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_36'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.22"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_37'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.23"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_38'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.24"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_39'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.25"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_40'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.26"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_41'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.27"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_43'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.28"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_44'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.29"
+      },
+      {
+        "ObjectName": "StaticMeshActor'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_1'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.7"
+      },
+      {
+        "ObjectName": "St01_Far_Env_C'St01_Far_Env:PersistentLevel.St01_Far_Env_C_1'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.5"
+      }
+    ],
+    "URL": {
+      "Protocol": "unreal",
+      "Host": "",
+      "Port": 7777,
+      "Valid": true,
+      "Map": "/Game/Hibiki/Levels/Title_Debug",
+      "Op": [],
+      "Portal": ""
+    },
+    "Model": {
+      "ObjectName": "Model'St01_Far_Env:PersistentLevel.Model_0'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.3"
+    },
+    "ModelComponents": [],
+    "LevelScriptActor": {
+      "ObjectName": "St01_Far_Env_C'St01_Far_Env:PersistentLevel.St01_Far_Env_C_1'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.5"
+    },
+    "NavListStart": null,
+    "NavListEnd": null,
+    "PrecomputedVisibilityHandler": {
+      "PrecomputedVisibilityCellBucketOriginXY": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "PrecomputedVisibilityCellSizeXY": 0.0,
+      "PrecomputedVisibilityCellSizeZ": 0.0,
+      "PrecomputedVisibilityCellBucketSizeXY": 0,
+      "PrecomputedVisibilityNumCellBuckets": 0,
+      "PrecomputedVisibilityCellBuckets": []
+    },
+    "PrecomputedVolumeDistanceField": {
+      "VolumeMaxDistance": 0.0,
+      "VolumeBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 0
+      },
+      "VolumeSizeX": 0,
+      "VolumeSizeY": 0,
+      "VolumeSizeZ": 0,
+      "Data": []
+    }
+  },
+  {
+    "Type": "Model",
+    "Name": "Model_0",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'Model'",
+    "Bounds": {
+      "Origin": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BoxExtent": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SphereRadius": 0.0
+    },
+    "Vectors": [],
+    "Points": [],
+    "Nodes": [],
+    "Surfs": [],
+    "NumSharedSides": 4,
+    "VertexBuffer": {
+      "Vertices": []
+    },
+    "LightingGuid": "CE705E87-4A619B54-2BB40CBB-44E5FEA0",
+    "LightmassSettings": []
+  },
+  {
+    "Type": "NavigationSystemModuleConfig",
+    "Name": "NavigationSystemModuleConfig_0",
+    "Outer": "WorldSettings",
+    "Class": "UScriptClass'NavigationSystemModuleConfig'",
+    "Properties": {
+      "bAutoSpawnMissingNavData": true,
+      "NavigationSystemClass": {
+        "AssetPathName": "/Script/NavigationSystem.NavigationSystemV1",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "St01_Far_Env_C",
+    "Name": "St01_Far_Env_C_1",
+    "Outer": "PersistentLevel",
+    "Class": "BlueprintGeneratedClass'/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.St01_Far_Env_C'",
+    "Template": {
+      "ObjectName": "St01_Far_Env_C'Default__St01_Far_Env_C'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.1"
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarHighway_IZ_00",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_00.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.33"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_00.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.33"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarHighway_IZ_1",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.34"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_1.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.34"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarHighway_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.35"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarHighway_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.35"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_23",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_23.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.36"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_23.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_24",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.37"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_24.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.37"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_25",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_25.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.38"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_25.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.38"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_26",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_26.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.39"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_26.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.39"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_27",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_27.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.40"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_27.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.40"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_28",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_28.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.41"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_28.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.41"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_29",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_29.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.42"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_29.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.42"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_30",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_30.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.43"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_30.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.43"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_31",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_31.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.44"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_31.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.44"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_32",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_32.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.45"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_32.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.45"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_33",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_33.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.46"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_33.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.46"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_34",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_34.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.47"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_34.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.47"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_35",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_35.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.48"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_35.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.48"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_36",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.49"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_36.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.49"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_37",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.50"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_37.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.50"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_38",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.51"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_38.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.51"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_39",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.52"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_39.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.52"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_40",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.53"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_40.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.53"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_41",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_41.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.54"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_41.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_43",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_43.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.55"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_43.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.55"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneBLDG_IZ_44",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_44.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.56"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneBLDG_IZ_44.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.56"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarPlaneMountain_IZ_2",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneMountain_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.57"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarPlaneMountain_IZ_2.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.57"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarVTower_IZ_A",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_A.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.58"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_A.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.58"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshActor",
+    "Name": "SM_FarVTower_IZ_B",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'StaticMeshActor'",
+    "Properties": {
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_B.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.59"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'St01_Far_Env:PersistentLevel.SM_FarVTower_IZ_B.StaticMeshComponent0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.59"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarHighway_IZ_00",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarHighway_IZ_00'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarBLDG_IZ/SM_FarHighway_IZ_00.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 792858.25,
+        "Y": -1769523.5,
+        "Z": 321814.06
+      },
+      "RelativeRotation": {
+        "Pitch": 13.474428,
+        "Yaw": -77.15493,
+        "Roll": -17.171446
+      },
+      "RelativeScale3D": {
+        "X": 2.021495,
+        "Y": 2.021495,
+        "Z": 2.021495
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarHighway_IZ_1",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarHighway_IZ_00'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarBLDG_IZ/SM_FarHighway_IZ_00.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 677602.25,
+        "Y": -1710072.2,
+        "Z": 187796.42
+      },
+      "RelativeRotation": {
+        "Pitch": 8.871847,
+        "Yaw": -74.801025,
+        "Roll": -6.790731
+      },
+      "RelativeScale3D": {
+        "X": 2.021495,
+        "Y": 2.021495,
+        "Z": 2.021495
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarHighway_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarHighway_IZ_00'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarBLDG_IZ/SM_FarHighway_IZ_00.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 604712.0,
+        "Y": -1945439.0,
+        "Z": 301916.8
+      },
+      "RelativeRotation": {
+        "Pitch": -6.9876127,
+        "Yaw": 55.65171,
+        "Roll": -13.0755825
+      },
+      "RelativeScale3D": {
+        "X": 2.0214946,
+        "Y": 2.0214946,
+        "Z": 2.0214946
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_23",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 677663.75,
+        "Y": -1496251.5,
+        "Z": 418710.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 79.99959,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 3.147902,
+        "Z": 29.337555
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_24",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 701977.2,
+        "Y": -1499709.4,
+        "Z": 402161.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 94.99959,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 22.32736
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_25",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 734242.94,
+        "Y": -1498743.5,
+        "Z": 390758.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 79.99959,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 10.364935
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_26",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 761001.06,
+        "Y": -1518137.2,
+        "Z": 392377.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 79.99957,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 22.32736
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_27",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01D'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01D.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 841253.3,
+        "Y": -1674614.8,
+        "Z": 317214.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 164.99966,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 24.664581
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_28",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 790830.75,
+        "Y": -1546975.9,
+        "Z": 384214.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 134.99954,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 7.3983545,
+        "Z": 28.681221
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_29",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 543846.5,
+        "Y": -1511968.8,
+        "Z": 253380.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 144.99962,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 3.147902,
+        "Z": 29.337555
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_30",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 583293.0,
+        "Y": -1495454.8,
+        "Z": 216460.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 129.9996,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 19.35511
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_31",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 604851.94,
+        "Y": -1490423.6,
+        "Z": 206409.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 114.9996,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 12.712058
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_32",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 637487.56,
+        "Y": -1488393.1,
+        "Z": 208687.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 104.99953,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 25.60638
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_33",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 671875.44,
+        "Y": -1486465.8,
+        "Z": 193445.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99962,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 19.227627,
+        "Z": 15.419679
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_34",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 561551.0,
+        "Y": -1511739.4,
+        "Z": 222216.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 144.9996,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 10.453051
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_35",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 524329.5,
+        "Y": -1538172.8,
+        "Z": 242568.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 139.99962,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 19.227627,
+        "Z": 15.419679
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_36",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 506435.88,
+        "Y": -1566328.8,
+        "Z": 274670.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 154.99954,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 25.60638
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_37",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 489070.56,
+        "Y": -1613673.0,
+        "Z": 300255.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99948,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 19.35511
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_38",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 493815.1,
+        "Y": -1588212.8,
+        "Z": 284333.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99959,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 11.719216,
+        "Z": 15.205717
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_39",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01C'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01C.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 488816.38,
+        "Y": -1636904.2,
+        "Z": 311600.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99954,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 8.290343,
+        "Z": 15.204597
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_40",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01E'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01E.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 498300.88,
+        "Y": -1675678.6,
+        "Z": 345677.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 119.99952,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 5.075727,
+        "Z": 29.337555
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_41",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01E'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01E.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 492376.34,
+        "Y": -1657624.1,
+        "Z": 320178.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 174.99959,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 10.435493,
+        "Z": 14.787148
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_43",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01E'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01E.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 576370.56,
+        "Y": -1756422.4,
+        "Z": 378394.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 169.99944,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": -4.468039,
+        "Z": 15.204597
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneBLDG_IZ_44",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneBLDG_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneBLDG_IZ_01.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FarPlaneBLDG_IZ_01E'",
+          "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/MI_FarPlaneBLDG_IZ_01E.0"
+        }
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 545897.5,
+        "Y": -1735600.9,
+        "Z": 366072.62
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 44.99935,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 40.0,
+        "Y": 19.010607,
+        "Z": 15.204597
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarPlaneMountain_IZ_2",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarPlaneMountain_IZ_01'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarPlane_IZ/SM_FarPlaneMountain_IZ_01.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -620950.0,
+        "Y": -1564000.0,
+        "Z": 309000.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 74.99989,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 300.55115,
+        "Y": 400.0,
+        "Z": 500.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarVTower_IZ_A",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarVTower_IZ_A'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarBLDG_IZ/SM_FarVTower_IZ_A.1"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 682078.0,
+        "Y": -1657243.2,
+        "Z": 167154.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 130.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 2.25,
+        "Z": 2.600946
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Outer": "SM_FarVTower_IZ_B",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FarVTower_IZ_B'",
+        "ObjectPath": "/Game/Hibiki/Environment/FarModel/SM_FarBLDG_IZ/SM_FarVTower_IZ_B.1"
+      },
+      "bCastDynamicShadow": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bInterpolateWhenSubStepping": false,
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 682078.0,
+        "Y": -1657243.2,
+        "Z": 16465.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 105.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.7011116,
+        "Y": 1.7011116,
+        "Z": 1.7011116
+      }
+    }
+  },
+  {
+    "Type": "World",
+    "Name": "St01_Far_Env",
+    "Class": "UScriptClass'World'",
+    "PersistentLevel": {
+      "ObjectName": "Level'St01_Far_Env:PersistentLevel'",
+      "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.2"
+    },
+    "ExtraReferencedObjects": [],
+    "StreamingLevels": []
+  },
+  {
+    "Type": "WorldSettings",
+    "Name": "WorldSettings",
+    "Outer": "PersistentLevel",
+    "Class": "UScriptClass'WorldSettings'",
+    "Properties": {
+      "NavigationSystemConfig": {
+        "ObjectName": "NavigationSystemModuleConfig'St01_Far_Env:PersistentLevel.WorldSettings.NavigationSystemModuleConfig_0'",
+        "ObjectPath": "/Game/Hibiki/Maps/St01/Far/ENV/St01_Far_Env.4"
+      },
+      "BookmarkArray": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]
