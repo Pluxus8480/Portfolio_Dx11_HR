@@ -10,10 +10,12 @@
 
 ---
 
-## 시연 영상 링크  
+## 시연 영상 링크 
+
 [Hi-Fi Rush 전체 프로젝트 영상](https://www.youtube.com/watch?v=rwTkUgP4ITA)
 
 [Hi-Fi Rush 프로젝트 개인 작업물 영상](https://www.youtube.com/watch?v=_NlaHaI_s50)
+
 ---
 
 # Extend Library Dependancy
