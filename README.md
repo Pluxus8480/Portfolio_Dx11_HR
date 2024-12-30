@@ -51,6 +51,8 @@ TPS 리듬 액션 게임 HI-Fi Rush 의 팀 포트폴리오 프레임워크, 이
 
 ## 주요 구현 기능
 
+- 상세한 구현 영상과 내용은 상단 [Hi-Fi Rush 프로젝트 개인 작업물 영상](https://www.youtube.com/watch?v=_NlaHaI_s50) 영상에 자세히 설명되어 있습니다.
+
 ## 1. DirectX 11 기반 시스템
 ### 렌더링
 - **디퍼드 라이팅**: 연산 부하를 줄이기 위해 G-Buffer 활용.
